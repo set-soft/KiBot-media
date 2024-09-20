@@ -1,0 +1,11 @@
+KiBot puede automatizar la generación de archivos de fabricación y ensamblado,
+documentación, listados de materiales y sus costos, etc.
+
+Puede realizar las verificaciones de reglas de diseño eléctricas (ERC) del
+esquemático y de las reglas de diseño de distancias (DRC). Aunque no la
+simulación del circuito.
+
+Una característica importante es que permite crear variantes de un mismo
+producto, un mismo PCB para más de un producto. Esto está disponible en
+herramientas propietarias, pero no en KiCad. Por lo que KiBot le agrega
+un valor extra a KiCad.

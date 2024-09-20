@@ -1,0 +1,490 @@
+1
+00:00:00,160 --> 00:00:07,040
+okay so today we're diving into this really cool 
+tool I found it's called KiBot KiBot yeah and it's  
+
+2
+00:00:07,040 --> 00:00:11,600
+designed to work with KiCad I'm sure a lot of our 
+listeners have heard of it maybe even use it it's  
+
+3
+00:00:11,600 --> 00:00:16,360
+that free and open- source Electronics design 
+software yeah it's getting pretty popular a lot  
+
+4
+00:00:16,360 --> 00:00:21,840
+of people use it yeah exactly so if anyone out 
+there listening is tired of those tedious tasks  
+
+5
+00:00:21,840 --> 00:00:26,920
+you know like all the boring stuff you have to 
+do when you're designing Electronics oh tell me  
+
+6
+00:00:26,920 --> 00:00:32,440
+about it so much clicking right that's what bot is 
+supposed to be like your new best friend yeah it  
+
+7
+00:00:32,440 --> 00:00:37,800
+can really be a game changer especially if you're 
+doing like any kind of serious design work okay so  
+
+8
+00:00:37,800 --> 00:00:42,400
+walk me through it from the beginning what kinds 
+of tasks does KiBot automate well the main thing  
+
+9
+00:00:42,400 --> 00:00:48,440
+is it handles all those essential manufacturing 
+files like Gerber files okay Gerber files yeah  
+
+10
+00:00:48,440 --> 00:00:53,320
+but for people who don't know what are those so 
+Gerber files are basically like think of them as  
+
+11
+00:00:53,320 --> 00:00:58,360
+blueprints but for your circuit board you send 
+those to the manufacturer and that's what they  
+
+12
+00:00:58,360 --> 00:01:02,800
+use to actually you know print the circuit 
+board so instead of like me having to go and  
+
+13
+00:01:02,800 --> 00:01:08,000
+like figure out all the settings every single 
+time KiBot takes care of all that exactly it's  
+
+14
+00:01:08,000 --> 00:01:13,760
+a huge time-saver and honestly it just kind 
+of takes away that like possibility for human  
+
+15
+00:01:13,760 --> 00:01:18,320
+error CU we all know you stare at those circuit 
+borns long enough you're bound to mess something  
+
+16
+00:01:18,320 --> 00:01:24,400
+up right oh yeah for sure been there done that 
+not fun so it's definitely saving us from some  
+
+17
+00:01:24,400 --> 00:01:29,520
+late night manufacturing panic attacks for sure 
+okay so that's one last thing to worry about but  
+
+18
+00:01:29,520 --> 00:01:35,440
+what about catching those errors before we even 
+get to that stage like during the actual design  
+
+19
+00:01:35,440 --> 00:01:40,520
+process right and that's where those design rule 
+checks come in the ERC and DRC it's like having  
+
+20
+00:01:40,520 --> 00:01:44,840
+someone looking over your shoulder double-checking 
+your work pretty much it goes through and looks  
+
+21
+00:01:44,840 --> 00:01:50,000
+for common errors any kind of violations and 
+it really just makes sure your design is you  
+
+22
+00:01:50,000 --> 00:01:55,320
+know solid and actually manufacturable that's a 
+relief yeah sometimes my brain just can't even  
+
+23
+00:01:55,320 --> 00:02:01,760
+handle another schematic I feel that it's a lot 
+especially when you're in the zone for hours okay  
+
+24
+00:02:01,760 --> 00:02:07,040
+so we've covered the manufacturing files and the 
+error checking what else can this thing do well  
+
+25
+00:02:07,040 --> 00:02:12,360
+it can do documentation too documentation really 
+yeah like your bills of materials you know those  
+
+26
+00:02:12,360 --> 00:02:18,600
+lists of every component you need KiBot generates 
+those for you oh wow yeah it even gives you cost  
+
+27
+00:02:18,600 --> 00:02:22,960
+estimation so you're not like stuck trying to 
+Wrangle a spreadsheet at two in the morning  
+
+28
+00:02:22,960 --> 00:02:27,440
+okay so it's like it's helping with the budget 
+too that's actually amazing exactly it's super  
+
+29
+00:02:27,440 --> 00:02:32,240
+helpful whether you're you know just doing this as 
+a hobby or you're running a whole business right  
+
+30
+00:02:32,240 --> 00:02:39,640
+that makes sense wow okay so far KiBot is blowing 
+my mind a little bit wait there's more oh there's  
+
+31
+00:02:39,640 --> 00:02:44,720
+more yeah we haven't even gotten to one of the 
+coolest Parts yet KiBot also does 3D modeling 3D  
+
+32
+00:02:44,720 --> 00:02:51,280
+modeling yeah like really high quality 3D models 
+of your boards using blender okay now that I'm  
+
+33
+00:02:51,280 --> 00:02:55,640
+really interested in okay so before the break you 
+kind of blew my mind a little bit talking about  
+
+34
+00:02:55,640 --> 00:03:00,680
+3D modeling I'm really curious about this yeah 
+it's seriously cool stuff so tell me how does  
+
+35
+00:03:00,680 --> 00:03:06,480
+it actually work well KiBot basically takes your 
+KiCad designs right and then it transforms them  
+
+36
+00:03:06,480 --> 00:03:13,520
+into these like really detailed 3D models okay 
+so we're not talking about just like a basic 3D  
+
+37
+00:03:13,520 --> 00:03:18,520
+block here no no no not at all like it shows you 
+the components the placements you know all the  
+
+38
+00:03:18,520 --> 00:03:24,080
+details even down to like the surface finishes 
+it's pretty impressive wow that's amazing yeah  
+
+39
+00:03:24,080 --> 00:03:29,000
+what are the advantages of having you know 
+like a Super high-quality 3D model like that  
+
+40
+00:03:29,000 --> 00:03:35,640
+well first off just visualizing the design you're 
+not stuck with these like flat schematics anymore  
+
+41
+00:03:35,640 --> 00:03:40,640
+you can actually see how it all fits together in 
+3D space right that makes a lot of sense yeah it  
+
+42
+00:03:40,640 --> 00:03:46,160
+makes it way easier to spot any potential issues 
+like you know something's too close together or  
+
+43
+00:03:46,160 --> 00:03:51,440
+just to get a feel for the layout you know right 
+especially with more complex boards that could be  
+
+44
+00:03:51,440 --> 00:03:56,840
+really helpful totally and it's not just for the 
+designer either you can use these 3D models for  
+
+45
+00:03:56,840 --> 00:04:02,240
+presentations marketing materials stuff like that 
+yeah definitely I mean everyone loves a good 3D  
+
+46
+00:04:02,240 --> 00:04:08,280
+render it's way more exciting than just looking at 
+like a 2D drawing oh for sure and what's cool is  
+
+47
+00:04:08,280 --> 00:04:13,360
+because it uses blender which is like a really 
+powerful 3D modeling software you're not just  
+
+48
+00:04:13,360 --> 00:04:18,200
+limited to viewing it you can actually export it 
+in different formats and use it with other tools  
+
+49
+00:04:18,200 --> 00:04:23,480
+oh okay so you could take the model from KiBot and 
+use it in a completely different program exactly  
+
+50
+00:04:23,480 --> 00:04:28,600
+so like give me an example how would you use that 
+well let's say you're working with like mechanical  
+
+51
+00:04:28,600 --> 00:04:33,520
+engineers and they're designing in the enclosure 
+for your board you can export the KiBot model and  
+
+52
+00:04:33,520 --> 00:04:38,160
+send it to them and they can actually use it in 
+their CAD software oh so they can make sure it  
+
+53
+00:04:38,160 --> 00:04:42,760
+fits properly and everything yep exactly no more 
+back and forth trying to describe everything over  
+
+54
+00:04:42,760 --> 00:04:49,080
+email that's huge because those design clashes 
+can be a real pain for sure or you know even  
+
+55
+00:04:49,080 --> 00:04:54,080
+if you just want to run some simulations like see 
+how your board's going to perform under different  
+
+56
+00:04:54,080 --> 00:04:58,760
+conditions you can use those models for that too 
+wow it's like you're giving your design a virtual  
+
+57
+00:04:58,760 --> 00:05:05,040
+test run before you even like s or anything 
+exactly and this kind of 3D integration it's  
+
+58
+00:05:05,040 --> 00:05:11,400
+not something you see in a lot of free and open 
+source tools it's really pretty remarkable what  
+
+59
+00:05:11,400 --> 00:05:16,920
+they're doing with KiBot it's very very cool okay 
+so we talked about the 3D modeling but there's one  
+
+60
+00:05:16,920 --> 00:05:21,520
+more thing that I really wanted to ask you about 
+and that's the product variance I've definitely  
+
+61
+00:05:21,520 --> 00:05:26,280
+worked on projects where like we needed a few 
+different versions of the same board and it's  
+
+62
+00:05:26,280 --> 00:05:30,560
+always a bit of a headache to manage so before 
+the break we were talking about product variants  
+
+63
+00:05:30,560 --> 00:05:35,880
+and I got to say for someone like me who hates 
+juggling a million different files this sounds  
+
+64
+00:05:35,880 --> 00:05:41,480
+like a dream come true oh yeah it's a lifesaver so 
+how does KiBot make it so easy to handle all these  
+
+65
+00:05:41,480 --> 00:05:47,120
+different variations so imagine this you have your 
+base circuit board design right but you need a few  
+
+66
+00:05:47,120 --> 00:05:50,560
+different versions just with little tweaks here 
+and there right like maybe one needs a different  
+
+67
+00:05:50,560 --> 00:05:55,720
+connector or you swapping out a wireless module 
+or something exactly and instead of having to  
+
+68
+00:05:55,720 --> 00:06:02,160
+create like separate files for each version key 
+lets you manage all those variations within the  
+
+69
+00:06:02,160 --> 00:06:08,080
+same project oh wow so it's all in one place 
+yep you basically set up parameters right and  
+
+70
+00:06:08,080 --> 00:06:13,280
+different options for things so for your wireless 
+module let's say it comes in Bluetooth Wi-Fi and  
+
+71
+00:06:13,280 --> 00:06:18,120
+cellular you tell KiBot hey this component could 
+be any of these it's kind of like having a drop  
+
+72
+00:06:18,120 --> 00:06:22,960
+down menu right there in your design so you 
+don't have to go back and like manually swap  
+
+73
+00:06:22,960 --> 00:06:27,680
+out components every time you need a different 
+version yeah no when you're ready to generate  
+
+74
+00:06:27,680 --> 00:06:33,600
+your output files you just choose which variant 
+you want KiBot does the rest that is so much  
+
+75
+00:06:33,600 --> 00:06:38,120
+slicker than the way I've been doing it and what 
+about the documentation does it handle that for  
+
+76
+00:06:38,120 --> 00:06:43,800
+each variant too absolutely you get the correct 
+boom assembly drawings everything for whichever  
+
+77
+00:06:43,800 --> 00:06:48,680
+variation you choose so no more second guessing if 
+you're looking at the right files okay seriously  
+
+78
+00:06:48,680 --> 00:06:53,160
+that's amazing especially for like bigger projects 
+that could save so much time and confusion  
+
+79
+00:06:53,160 --> 00:06:59,800
+it's like KiBot just brings order to the chaos 
+exactly and this isn't just for like small tweaks  
+
+80
+00:06:59,800 --> 00:07:05,160
+talking you can even create completely different 
+products from that same Core Design oh wow so you  
+
+81
+00:07:05,160 --> 00:07:10,560
+could have one base design that's like a platform 
+for a whole product line exactly think of the  
+
+82
+00:07:10,560 --> 00:07:15,360
+designer use the the time and money you save key 
+Bots really bringing these high-end features to  
+
+83
+00:07:15,360 --> 00:07:19,840
+everyone which is incredible it's amazing how 
+much you could do with this one tool honestly  
+
+84
+00:07:19,840 --> 00:07:26,640
+we've covered so much automating all those tedious 
+tasks creating amazing 3D models and now managing  
+
+85
+00:07:26,640 --> 00:07:31,880
+all these product variants KiBot sounds like it 
+has everything covered yeah it's really remarkable  
+
+86
+00:07:31,880 --> 00:07:36,960
+what they've managed to put together the coolest 
+part is it's open source right so it's constantly  
+
+87
+00:07:36,960 --> 00:07:41,320
+evolving always getting better exactly there's a 
+whole community of developers constantly adding  
+
+88
+00:07:41,320 --> 00:07:45,880
+new features and making it even better that's 
+what I love about open source so any predictions  
+
+89
+00:07:45,880 --> 00:07:53,480
+for the future of KiBot where do you see it going 
+well it's hard to say for sure but I think it's  
+
+90
+00:07:53,480 --> 00:07:58,040
+part of this larger Trend you know these really 
+powerful design tools they're becoming accessible  
+
+91
+00:07:58,040 --> 00:08:04,040
+to everyone so as it evolves I think KiBot has 
+the potential to you know just make advanced  
+
+92
+00:08:04,040 --> 00:08:08,760
+electronics design something anyone can do not 
+just big companies with big budgets that is such  
+
+93
+00:08:08,760 --> 00:08:13,960
+an exciting thought who knows what incredible 
+inventions people will come up with when they  
+
+94
+00:08:13,960 --> 00:08:19,960
+have these kinds of tools at their fingertips 
+well I have to say this deep dive into KiBot has  
+
+95
+00:08:19,960 --> 00:08:24,520
+been really eye-opening I think it's an amazing 
+resource for anyone whether you're just getting  
+
+96
+00:08:24,520 --> 00:08:29,600
+started with electronics or you're a Season Pro I 
+totally agree it's definitely worth checking out  
+
+97
+00:08:29,600 --> 00:08:34,040
+and for anyone listening who's feeling inspired 
+you can find links to everything we talked about  
+
+98
+00:08:34,040 --> 00:08:39,200
+today in the show notes so be sure to check it 
+out and let us know what you think until next time
+

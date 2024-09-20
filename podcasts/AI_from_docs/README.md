@@ -49,3 +49,19 @@ I finally editer the SRT to separate both voices:
 [02_es.srt](https://raw.githubusercontent.com/set-soft/KiBot-media/main/podcasts/AI_from_docs/02_es.srt)
 
 
+## Third iteration
+
+I included more facts to finally kill the remaining *hallucination*:
+[03_Facts.txt](https://raw.githubusercontent.com/set-soft/KiBot-media/main/podcasts/AI_from_docs/03_Facts.txt).
+
+This again changed the focus. A side effect of using simple facts, instead of incorporating them to the original source.
+
+[Third audio](https://media.githubusercontent.com/media/set-soft/KiBot-media/main/podcasts/AI_from_docs/03_KiBot_correction_2.wav)
+
+Following a similar process:
+
+[![General podcast](https://img.youtube.com/vi/rfq6ljDD6FI/0.jpg)](https://www.youtube.com/watch?v=rfq6ljDD6FI)
+
+[03_en.srt](https://raw.githubusercontent.com/set-soft/KiBot-media/main/podcasts/AI_from_docs/03_en.srt)
+
+[03_es.srt](https://raw.githubusercontent.com/set-soft/KiBot-media/main/podcasts/AI_from_docs/03_es.srt)
