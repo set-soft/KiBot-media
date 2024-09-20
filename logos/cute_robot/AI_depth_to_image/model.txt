@@ -1,0 +1,15 @@
+01-04:
+
+SDXL 1.0
+Defaults:
+- Runtime: short
+- Overall Prompt Weight: 50%
+- Refiner Weight: 50%
+- Sampling Method: K_DPMPP_2M
+
+05-09: (Less credits)
+
+Dreamshaper XL Lighting
+Defaults:
+- Runtime: short
+
