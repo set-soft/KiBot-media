@@ -1,0 +1,453 @@
+1
+00:00:00,080 --> 00:00:04,960
+Hola a todos, bienvenidos de nuevo. ¿Alguna vez te has encontrado
+luchando con un diseño de PCB deseando que hubiera una
+
+2
+00:00:04,960 --> 00:00:11,120
+manera menos, eh, manual de manejar todas las partes complicadas?
+Creo que todos hemos estado allí, pues eso es exactamente
+
+3
+00:00:11,120 --> 00:00:16,600
+lo que vamos a explorar hoy: KiBot, anteriormente KiPlot.
+Exactamente, y vamos a ver cómo puede
+
+4
+00:00:16,600 --> 00:00:21,560
+elevar seriamente tu nivel en KiCAD. Se trata de
+automatización, de verdad. Sí, deshacerse de esas tareas tediosas
+
+5
+00:00:21,560 --> 00:00:28,640
+que consumen tu tiempo, como generar archivos,
+realizar comprobaciones en tu diseño e incluso manejar modelos 3D.
+
+6
+00:00:28,640 --> 00:00:34,280
+Y para asegurarnos de que te damos lo mejor,
+iremos directamente a la fuente con extractos
+
+7
+00:00:34,280 --> 00:00:40,320
+de la documentación de KiBot 1.7.1. Pero ya conoces
+nuestro estilo, no solo vamos a leerla superficialmente.
+
+8
+00:00:40,320 --> 00:00:45,560
+Definitivamente no, profundizaremos en cómo KiBot puede
+realmente cambiar tu enfoque hacia el diseño, no solo
+
+9
+00:00:45,560 --> 00:00:49,840
+hacerlo más rápido, porque esa es la parte emocionante.
+Creo que una de las cosas más interesantes aquí es
+
+10
+00:00:49,840 --> 00:00:55,720
+cómo ha evolucionado KiBot; incluso el cambio de nombre a
+la versión 1.7.0 muestra que están añadiendo más
+
+11
+00:00:55,720 --> 00:01:00,280
+y más poder, absolutamente. Solo el alcance de lo que
+ahora puede automatizar es impresionante; estamos hablando
+
+12
+00:01:00,280 --> 00:01:05,440
+de crear archivos de salida en diferentes formatos,
+todo eso y luego las comprobaciones cruciales, el ERC
+
+13
+00:01:05,440 --> 00:01:09,720
+y el DRC, esenciales para una placa funcional, ¿verdad?
+Absolutamente esenciales, y KiBot no se detiene
+
+14
+00:01:09,720 --> 00:01:14,080
+ahí; también maneja modelos 3D. Puedes prácticamente
+ver tu placa antes de que exista. Eso debe ser
+
+15
+00:01:14,080 --> 00:01:19,120
+enorme para detectar problemas temprano. Imagina girar
+todo tu diseño en 3D y detectar un problema de
+
+16
+00:01:19,120 --> 00:01:24,800
+espaciado antes de que siquiera pienses en ordenar las piezas.
+Exactamente, evitando esos momentos de "¿por qué no vi eso?"
+
+17
+00:01:24,800 --> 00:01:30,160
+sí, más adelante. Bien, entonces, KiBot tiene
+potencial, ya lo hemos establecido, pero, pero vamos a
+
+18
+00:01:30,160 --> 00:01:35,160
+ser realistas por un segundo. Alguien que escuche sobre esto por
+primera vez, ¿cuál es el impacto? ¿Cómo cambia esto
+
+19
+00:01:35,160 --> 00:01:41,640
+realmente la forma en que trabajan en un proyecto? Esa es
+la pregunta clave. Imagina trabajar en un diseño complejo de PCB,
+
+20
+00:01:41,640 --> 00:01:48,400
+con múltiples capas y toneladas de componentes, en lugar
+de pasar horas en archivos Gerber, esos ERC y
+
+21
+00:01:48,400 --> 00:01:54,120
+comprobaciones DRC de las que hablamos, construir un modelo 3D
+por ti mismo. KiBot puede automatizar todo eso con unos
+
+22
+00:01:54,120 --> 00:02:00,080
+pocos comandos, así que estamos hablando de días de
+trabajo potencialmente ahorrados fácilmente. Piensa en lo que puedes hacer con ese
+
+23
+00:02:00,080 --> 00:02:05,720
+tiempo: más iteraciones de diseño, explorar nuevas ideas
+o simplemente alejarte de la pantalla para volver
+
+24
+00:02:05,720 --> 00:02:10,880
+fresco. Así que no se trata solo de velocidad, sino de liberar
+espacio mental para las cosas creativas, la resolución de problemas.
+
+25
+00:02:10,880 --> 00:02:15,520
+Exactamente eso es donde radica el verdadero
+potencial de KiBot. Así que hemos hablado del
+
+26
+00:02:15,520 --> 00:02:20,600
+porqué de KiBot, pero ahora entremos en las
+practicidades, el cómo. Vamos a profundizar en el uso real y la
+
+27
+00:02:20,600 --> 00:02:26,720
+tabla de contenidos de la documentación está bastante clara:
+instalación, configuración, uso, todo bien detallado.
+
+28
+00:02:26,720 --> 00:02:33,720
+Pero tengo que decir que para alguien completamente nuevo en esto,
+esas palabras solas podrían ser un poco intimidantes.
+
+29
+00:02:33,720 --> 00:02:38,600
+Oh, seguro, los términos técnicos son lo peor. Mantengamos a nuestro
+aprendiz en mente y desglosemos todo. Perfecto, así que
+
+30
+00:02:38,600 --> 00:02:43,480
+empezando con la instalación, parece que KiBot tiene
+unas pocas formas diferentes de empezar a funcionar, sí.
+
+31
+00:02:43,480 --> 00:02:49,520
+No estás limitado a un solo método; hay pip,
+bastante común para cosas de Python, e incluso paquetes preconstruidos
+
+32
+00:02:49,520 --> 00:02:55,520
+para algunas distribuciones de Linux como Ubuntu, Arch
+Linux, así que no importa tu configuración, lo más probable es que haya
+
+33
+00:02:55,520 --> 00:02:59,680
+una forma bastante directa de instalarlo. No
+necesitas ser un experto en la línea de comandos, exactamente.
+
+34
+00:02:59,680 --> 00:03:04,880
+Y eso nos lleva a la configuración. La
+documentación menciona un archivo YAML, lo cual podría
+
+35
+00:03:04,880 --> 00:03:09,840
+parecer un poco como adentrarse en la Matrix para algunos. Archivos de configuración YAML como, sí, un poco
+
+36
+00:03:09,840 --> 00:03:13,680
+intimidantes al principio. Es como: ¿se supone que debo
+entender el código secreto o algo así? Lo sé.
+
+37
+00:03:13,680 --> 00:03:19,080
+¿Verdad? Pero afortunadamente, la gente de KiBot anticipó
+eso y tienen una guía de inicio rápido que es muy
+
+38
+00:03:19,080 --> 00:03:24,240
+amigable para el usuario, que te guía a través de lo básico, así que
+no es tan aterrador como parece. Bien, entonces tenemos
+
+39
+00:03:24,240 --> 00:03:30,200
+KiBot instalado y configurado. ¿Cómo lo usamos
+realmente? Ahí es donde entra la interfaz de línea de comandos.
+
+40
+00:03:30,200 --> 00:03:34,720
+Pero, honestamente, es más simple de lo que parece.
+Supongamos que tienes tu diseño y quieres
+
+41
+00:03:34,720 --> 00:03:40,800
+generar un PDF de él. Abre tu terminal, el
+símbolo del sistema, lo que sea que uses, y escribe algo como
+
+42
+00:03:40,800 --> 00:03:47,800
+kibot I my product.key PCB out output folder
+create PDF. Bien, básicamente le estamos diciendo a
+
+43
+00:03:47,800 --> 00:03:53,880
+KiBot, aquí está mi archivo, haz un PDF de esto y colócalo
+en esta carpeta. Lo entendiste, y la documentación
+
+44
+00:03:53,880 --> 00:03:59,880
+profundiza en todos los comandos, opciones,
+diferentes formatos de salida, capas específicas, esas revisiones ERC
+
+45
+00:03:59,880 --> 00:04:04,520
+y DRC de las que hablamos. Todo está ahí.
+Hablando de la documentación, noté que
+
+46
+00:04:04,520 --> 00:04:09,200
+tienen estas secciones de notas esparcidas a lo largo. Una
+que destacó, dado de qué estamos hablando, es
+
+47
+00:04:09,200 --> 00:04:13,640
+la de modelos 3D. Oh sí, esa es buena,
+especialmente si estás interesado en ese aspecto
+
+48
+00:04:13,640 --> 00:04:20,040
+de visualización 3D. Explica cómo KiBot
+interactúa con los datos 3D de tu diseño, lo cual
+
+49
+00:04:20,040 --> 00:04:24,280
+recuerda cómo hablamos de detectar errores
+temprano. Ahí es donde brilla, siendo capaz de
+
+
+50
+00:04:24,280 --> 00:04:30,440
+ver realmente tu placa en 3D con KiBot tiene un
+potencial revolucionario, totalmente. Y a pesar de todo esto, estamos
+
+51
+00:04:30,440 --> 00:04:35,960
+solo arañando la superficie. El registro de cambios sugiere
+que habrá aún más características y actualizaciones.
+
+52
+00:04:35,960 --> 00:04:40,760
+sí, ahí es donde las cosas se ponen realmente interesantes. Si
+quieres ver una herramienta que está en constante evolución,
+
+53
+00:04:40,760 --> 00:04:47,480
+la versión 1.7.0, por ejemplo, introdujo estas cosas
+llamadas preflights. Sí, los preflights, de hecho,
+
+54
+00:04:47,480 --> 00:04:52,240
+me encantan. Así que desglosémoslo, ¿de qué se trata?
+Piénsalos como chequeos predefinidos
+
+55
+00:04:52,240 --> 00:04:56,920
+que puedes ejecutar en todo tu proyecto con un solo
+comando, solo para asegurarte de que todo esté bien antes de
+
+56
+00:04:56,920 --> 00:05:05,320
+avanzar. Así que esos chequeos ERC y DRC,
+otra vez agrupados. Sí, lo has entendido. DRC incluso uno
+
+57
+00:05:05,320 --> 00:05:10,400
+llamado "update stackup", que asegura que todas tus capas
+en el PCB estén definidas correctamente, lo cual puede ser un
+
+58
+00:05:10,400 --> 00:05:15,840
+dolor de cabeza rastrear manualmente. Así que, en lugar de recordar
+ejecutar todos estos chequeos individualmente, puedes
+
+59
+00:05:15,840 --> 00:05:21,200
+automatizar todo el control de calidad con
+un solo comando. Esa es la idea. Ahorra tiempo, por supuesto, pero
+
+60
+00:05:21,200 --> 00:05:26,120
+más importante aún, te da esa confianza extra
+en tus diseños, tranquilidad, especialmente a medida que
+
+61
+00:05:26,120 --> 00:05:31,400
+los diseños se vuelven cada vez más complejos. Oh, absolutamente,
+y ahí es donde vemos cómo KiBot también se está actualizando
+
+62
+00:05:31,400 --> 00:05:36,320
+con los tiempos. Otro punto destacado del
+registro de cambios es el soporte mejorado para KiCAD
+
+63
+00:05:36,320 --> 00:05:41,960
+8, que para quienes aún no han hecho el salto,
+KiCAD 8 es un gran avance, ¿verdad? Muchos cambios
+
+64
+00:05:41,960 --> 00:05:47,920
+y mejoras a gran escala. Así que es esencial que KiBot
+funcione bien con la última versión. Significa que los
+
+65
+00:05:47,920 --> 00:05:52,440
+desarrolladores están al tanto, asegurándose de que KiBot
+siga siendo relevante y compatible. Así que hemos hablado
+
+66
+00:05:52,440 --> 00:05:58,600
+sobre qué es KiBot, por qué es interesante, cómo usarlo,
+pero antes de terminar, quiero hacer un zoom hacia atrás
+
+67
+00:05:58,600 --> 00:06:02,800
+por un segundo para ver el panorama general.
+Estoy totalmente a favor de pensar en el panorama general. Hemos cubierto
+
+68
+00:06:02,800 --> 00:06:08,680
+mucho sobre KiBot: qué es, por qué es interesante, incluso hemos tocado
+el cómo, pero creo que vale la pena dar un paso atrás,
+
+69
+00:06:08,680 --> 00:06:14,640
+mirar el bosque, no solo los árboles. Absolutamente, el panorama general es clave. Hemos
+
+70
+00:06:14,640 --> 00:06:20,240
+hablado sobre todas las cosas geniales que hace KiBot, hace
+KiCAD más fluido, automatiza tareas, incluso detecta esos
+
+71
+00:06:20,240 --> 00:06:24,840
+pequeños errores que se convierten en grandes dolores de cabeza,
+pero ¿qué significa esto realmente para alguien
+
+72
+00:06:24,840 --> 00:06:29,640
+que está escuchando ahora mismo y está diseñando
+electrónica genial? Esa es la verdadera pregunta.
+
+73
+00:06:29,640 --> 00:06:36,200
+Y, honestamente, lo que me entusiasma de herramientas como esta
+es que no se trata solo de velocidad, sino de cambiar
+
+74
+00:06:36,200 --> 00:06:41,720
+la forma en que pensamos sobre el diseño. Oh, me gusta eso.
+Es como qué cambia cuando ya no estás agobiado por
+
+75
+00:06:41,720 --> 00:06:47,080
+las tareas tediosas. Exactamente. Piensa en ello
+como dibujar a mano versus usar una herramienta digital.
+
+76
+00:06:47,080 --> 00:06:51,880
+ambos pueden crear arte increíble, pero esas
+herramientas digitales desbloquean una forma completamente diferente de
+
+77
+00:06:51,880 --> 00:06:57,040
+trabajar, ¿verdad? Puedes experimentar más, probar cosas
+que de otro modo no habrías tenido tiempo para hacer. Exactamente.
+
+78
+00:06:57,040 --> 00:07:01,680
+Con KiBot encargándose de las tareas repetitivas,
+estás libre para explorar más iteraciones de diseño,
+
+79
+00:07:01,680 --> 00:07:06,080
+jugar con la colocación de componentes, tal vez incluso
+probar esas ideas un poco locas a las que no habrías
+
+80
+00:07:06,080 --> 00:07:10,520
+llegado antes. Es casi como tener un asistente de diseño
+manejando el trabajo tedioso para que puedas concentrarte
+
+81
+00:07:10,520 --> 00:07:16,040
+en el panorama general. Totalmente, y ahí es donde
+sucede la verdadera magia: la creatividad humana se encuentra con
+
+82
+00:07:16,040 --> 00:07:22,840
+la automatización potente. Me encanta. Así que no es solo
+hacer el trabajo más fácil, es desbloquear un nuevo nivel
+
+83
+00:07:22,840 --> 00:07:28,080
+de creatividad en el proceso. Precisamente. Y
+en esa nota, quiero dejar a todos con esta
+
+84
+00:07:28,080 --> 00:07:33,680
+reflexión: piensa en tu proceso de diseño, ¿qué tareas
+simplemente te agotan? Las que tardan
+
+85
+00:07:33,680 --> 00:07:38,440
+una eternidad. ¿Qué pasaría si KiBot se encargara de esas
+tareas? ¿Qué harías con ese tiempo y energía extra?
+
+86
+00:07:38,440 --> 00:07:44,760
+Esa es la pregunta para reflexionar. Y con eso
+hemos llegado al final de nuestro análisis profundo de KiBot.
+
+87
+00:07:44,760 --> 00:07:50,120
+Espero que todos los que escuchan tengan una mejor idea de
+cómo esta herramienta puede no solo ayudarte a usar KiCAD, sino
+
+88
+00:07:50,120 --> 00:07:54,360
+tal vez incluso cambiar la forma en que piensas sobre el diseño
+de electrónica en primer lugar. No podría haberlo
+
+89
+00:07:54,360 --> 00:07:59,720
+dicho mejor. No olvides que el aprendizaje
+no termina aquí. La documentación de KiBot está
+
+90
+00:07:59,720 --> 00:08:04,440
+ahí afuera, juega con ella, ve lo que puedes lograr,
+quién sabe, tal vez descubras un nuevo lado de
+
+91
+00:08:04,440 --> 00:08:09,040
+ti mismo como diseñador. Gracias por acompañarnos en
+este análisis profundo y nos vemos en el próximo.
