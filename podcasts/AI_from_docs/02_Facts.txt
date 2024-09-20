@@ -1,0 +1,15 @@
+KiBot se basa en KiPlot, creado entre 2018 y 2019.
+En 2020 el proyecto cambia de desarrollador.
+En agosto de 2020 pasa a llamarse KiBot, era la versión 0.5.0.
+
+KiCad puede generar imágenes 3D del circuito impreso.
+La diferencia es que con KiBot las mismas se pueden generar en forma automática
+y con mucha más calidad.
+La mejora en calidad se logra utilizando la herramienta Blender.
+
+No es necesario instalar KiBot y todas sus dependencias.
+Se puede correr una imagen docker que contiene todo lo necesario.
+
+Gracias a que hay imagenes docker, y a que todo el proceso está automatizado,
+KiBot es ideal para usarse en entornos de CI/CD (Continuous Integration / Continuous Deployment),
+como es común en el mundo del software, utilizando herramientas como GitHub y GitLab.

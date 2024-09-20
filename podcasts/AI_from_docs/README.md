@@ -24,3 +24,28 @@ Using ChatGPT I translated it to spanish to get
 [01_es.srt](https://raw.githubusercontent.com/set-soft/KiBot-media/main/podcasts/AI_from_docs/01_es.srt).
 This process isn't recommended becuase ChatGPT (4 mini) likes to mess with the SRT entries, moves text to the next entry,
 removes entries, etc. Plus it can process a 13k file at once.
+
+
+## Second iteration
+
+To reduce the ammount of *hallucinations* I feeded NotebookLM with a document with some extra facts:
+[02_Facts.txt](https://raw.githubusercontent.com/set-soft/KiBot-media/main/podcasts/AI_from_docs/02_Facts.txt).
+
+This reduced the ammount of *hallucinations* drastically. As a side effect the focus was put on CI/CD:
+
+[Second audio](https://media.githubusercontent.com/media/set-soft/KiBot-media/main/podcasts/AI_from_docs/02_KiBot_correction_1.wav)
+
+Still I found one major error. So I used *audacity* to remove it (you can see the file history).
+
+Again converted it to an MP4 and uploaded to YouTube:
+
+[![CI/CD podcast](https://img.youtube.com/vi/BgSvupdpGvo/0.jpg)](https://www.youtube.com/watch?v=BgSvupdpGvo)
+
+Using a similar process I got the english subitles:
+[02_en.srt](https://raw.githubusercontent.com/set-soft/KiBot-media/main/podcasts/AI_from_docs/02_en.srt)
+
+For the spanish translation I used a Google Translator [wrapper](https://www.syedgakbar.com/projects/dst).
+I finally editer the SRT to separate both voices:
+[02_es.srt](https://raw.githubusercontent.com/set-soft/KiBot-media/main/podcasts/AI_from_docs/02_es.srt)
+
+

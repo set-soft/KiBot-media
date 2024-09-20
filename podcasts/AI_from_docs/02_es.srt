@@ -1,0 +1,379 @@
+1
+00:00:00,040 --> 00:00:04,240
+¿Alguna vez has mirado un circuito y te has preguntado
+cómo meten toda esa tecnología en un espacio tan reducido?
+
+2
+00:00:04,240 --> 00:00:09,000
+Estamos hablando de espacio, de diseños intrincados,
+de componentes diminutos, es todo un mundo de complejidad.
+
+3
+00:00:09,000 --> 00:00:16,040
+En el diseño de PCB es cierto que incluso con
+software sofisticado como KiCad hay un impulso constante
+
+4
+00:00:16,040 --> 00:00:21,720
+por procesos de diseño más optimizados y ahí es
+donde entra en juego la automatización y ahí es donde KiBot
+
+5
+00:00:21,720 --> 00:00:27,920
+entra en escena.
+Esta herramienta de código abierto anteriormente conocida
+como Kiplot que parece ser
+
+6
+00:00:27,920 --> 00:00:33,520
+está generando revuelo en el mundo de KiCad, por lo que
+tengo entendido, ya que puede automatizar algunos procesos importantes.
+
+7
+00:00:33,520 --> 00:00:39,360
+Tareas complejas como generar modelos 3D directamente
+para tus diseños, esa es una de sus características clave
+
+8
+00:00:39,360 --> 00:00:45,400
+KiBot toma las capacidades 3D existentes de KiCad y
+las eleva a través de la integración con Blender,
+
+9
+00:00:45,400 --> 00:00:51,200
+software de modelado 3D profesional, por lo que no se
+trata solo de hacer que el modelo se vea bonito, ¿cuáles son las
+
+10
+00:00:51,200 --> 00:00:56,920
+Beneficios tangibles de esa mayor fidelidad en
+un flujo de trabajo de diseño: la diferencia en calidad puede
+
+11
+00:00:56,920 --> 00:01:02,640
+sea significativo, imagínate poder identificar
+un posible choque de componentes o una holgura.
+
+12
+00:01:02,640 --> 00:01:08,400
+Emitir directamente desde el modelo 3D durante una
+revisión de diseño, lo que podría ahorrar horas de trabajo posterior
+
+13
+00:01:08,400 --> 00:01:13,240
+También facilita la comunicación con los fabricantes
+proporcionándoles una visualización clara del
+
+14
+00:01:13,240 --> 00:01:18,680
+producto final que tiene mucho sentido ahora la
+documentación también mencionó que KiBot evolucionó de un
+
+15
+00:01:18,680 --> 00:01:23,520
+Herramienta llamada KiPlot, ¿puede arrojar algo de luz sobre esa
+transición que impulsó el cambio hacia una visión más global?
+
+16
+00:01:23,520 --> 00:01:29,040
+El enfoque centrado en la automatización de KiPlot surgió en
+2018, inicialmente diseñado para generar datos de alta calidad.
+
+17
+00:01:29,040 --> 00:01:34,280
+parcelas de diseños de KiCad, pero en 2020, con la
+participación de un nuevo desarrollador, el proyecto se sometió a
+
+18
+00:01:34,280 --> 00:01:40,720
+Una transformación significativa que finalmente llevó
+a su cambio de nombre a KiBot con la versión 0.5.0.
+
+19
+00:01:40,720 --> 00:01:45,680
+marcó un movimiento deliberado hacia una visión más amplia
+de la automatización y el diseño de PCB. Bueno, así suena.
+
+20
+00:01:45,680 --> 00:01:50,200
+Como una historia clásica de código abierto, un proyecto adquiere
+vida propia impulsada por la comunidad.
+
+21
+00:01:50,200 --> 00:01:55,440
+necesidades y una pasión compartida por la innovación
+precisamente y ese aspecto de código abierto es crucial
+
+22
+00:01:55,440 --> 00:02:00,480
+Aquí se permite un nivel de transparencia y
+colaboración que a menudo falta en los sistemas propietarios.
+
+23
+00:02:00,480 --> 00:02:07,480
+software hablando de colaboración algo más
+me llamó la atención La mención de la integración CI/CD Estoy
+
+24
+00:02:07,480 --> 00:02:11,880
+Estoy más familiarizado con ese término en el contexto del
+desarrollo de software, no del diseño de hardware.
+
+25
+00:02:11,880 --> 00:02:16,440
+¿Cómo se ve esto en el mundo de KiBot y
+el diseño de PCB? Es una aplicación fascinante de un
+
+26
+00:02:16,440 --> 00:02:23,440
+Práctica de desarrollo de software para diseño de hardware.
+CI/CD, que significa integración continua.
+
+27
+00:02:23,440 --> 00:02:29,040
+La implementación continua consiste en automatizar el
+proceso de integración de cambios de código y la ejecución de pruebas.
+
+28
+00:02:29,040 --> 00:02:34,400
+y la implementación del software KiBot adapta este concepto
+para el diseño de PCB, creando esencialmente un sistema donde
+
+29
+00:02:34,400 --> 00:02:38,480
+Los cambios de diseño se pueden validar
+y verificar automáticamente, verificando constantemente su trabajo y
+
+30
+00:02:38,480 --> 00:02:43,080
+Asegurarse de que todo esté en orden exactamente
+introduce un nuevo nivel de rigor y eficiencia.
+
+31
+00:02:43,080 --> 00:02:48,600
+Al proceso de diseño que finalmente conduce a
+un hardware más robusto y confiable, suena increíblemente
+
+32
+00:02:48,600 --> 00:02:53,880
+Potente, pero para alguien que puede ser nuevo en todo
+esto, especialmente en el lado del desarrollo de software, es...
+
+33
+00:02:53,880 --> 00:02:59,440
+Es fácil perderse en la jerga técnica. ¿Podría
+explicar los beneficios prácticos de este CI/CD?
+
+34
+00:02:59,440 --> 00:03:06,200
+integración para, digamos, un equipo de ingenieros que trabajan
+en un diseño de PCB complejo. Absolutamente, digamos que...
+
+35
+00:03:06,200 --> 00:03:11,560
+tener un equipo distribuido en diferentes ubicaciones,
+todos contribuyendo a un único diseño de PCB cada uno
+
+36
+00:03:11,560 --> 00:03:16,440
+Cada vez que alguien realiza un cambio y lo envía al
+repositorio central, KiBot puede hacerlo automáticamente.
+
+37
+00:03:16,440 --> 00:03:21,240
+ejecutar controles de reglas de diseño para garantizar que todos
+cumplan con los mismos estándares, esto evita
+
+38
+00:03:21,240 --> 00:03:25,920
+inconsistencias y errores potenciales que se introducen
+al agilizar la colaboración y reducir la
+
+39
+00:03:25,920 --> 00:03:31,040
+De ida y vuelta que a menudo ralentiza los proyectos de equipo
+exactamente y porque estos controles están automatizados
+
+40
+00:03:31,040 --> 00:03:36,040
+Ocurren mucho más rápido que las revisiones manuales, lo que
+significa que los problemas potenciales se detectan temprano.
+
+41
+00:03:36,040 --> 00:03:41,520
+ciclo de diseño ahorrando tiempo y recursos valiosos
+imagínese detectar un defecto de diseño que habría
+
+42
+00:03:41,520 --> 00:03:47,360
+Se requiere un respin completo del tablero con
+la integración de KiBot CI/CD, es más probable que lo atrape.
+
+43
+00:03:47,360 --> 00:03:53,080
+Antes de que llegue a esa etapa, es un
+ejemplo poderoso de cómo la automatización no se trata solo de velocidad.
+
+44
+00:03:53,080 --> 00:03:58,480
+pero también sobre mejorar la calidad general y
+la confiabilidad del producto final, ahora profundizando más
+
+45
+00:03:58,480 --> 00:04:04,560
+En la documentación me encontré con otro término
+que despertó mi curiosidad Docker, parece un poco fuera de lugar.
+
+46
+00:04:04,560 --> 00:04:08,800
+¿Podría explicar cómo encaja Docker en el contexto del diseño de PCB ?
+
+47
+00:04:08,800 --> 00:04:14,360
+Un cambio de juego en cuanto a accesibilidad y
+facilidad de uso. Imagínelo como un contenedor virtual que
+
+48
+00:04:14,360 --> 00:04:19,400
+encapsula KiBot y todas sus dependencias
+creando un entorno autónomo donde
+
+49
+00:04:19,400 --> 00:04:25,000
+Puede funcionar sin problemas independientemente de su
+sistema operativo o software existente, así que si estoy ejecutando
+
+50
+00:04:25,000 --> 00:04:31,280
+Windows Macs o Linux puedo usar KiBot sin
+problemas de compatibilidad precisamente no más lucha libre
+
+51
+00:04:31,280 --> 00:04:36,920
+Con instalaciones complejas o conflictos de dependencia,
+esto es particularmente beneficioso para equipos con
+
+52
+00:04:36,920 --> 00:04:42,320
+configuraciones diversas, ya que garantiza que todos trabajen
+con el mismo entorno consistente, lo cual es muy importante.
+
+53
+00:04:42,320 --> 00:04:46,600
+Ventaja especialmente para equipos que colaboran
+de forma remota o trabajan con socios externos.
+
+54
+00:04:46,600 --> 00:04:51,760
+elimina una importante barrera de entrada exactamente
+porque democratiza el acceso a una potente automatización
+
+55
+00:04:51,760 --> 00:04:56,760
+Herramientas como KiBot las hacen disponibles para
+una gama más amplia de usuarios. Es increíble ver cómo
+
+56
+00:04:56,760 --> 00:05:02,320
+Los proyectos de código abierto como KiBot están ampliando los
+límites de lo posible en el diseño de PCB a medida que avanzamos.
+
+57
+00:05:02,320 --> 00:05:06,160
+Para terminar, tengo curiosidad por escuchar su perspectiva
+sobre el impacto más amplio de esta tendencia hacia
+
+58
+00:05:06,160 --> 00:05:12,120
+Automatización en el campo ¿Qué
+nos depara el futuro en el diseño de PCB y qué papel ve en las herramientas?
+
+59
+00:05:12,120 --> 00:05:17,920
+Me gusta jugar con KiBot. Es un momento emocionante para
+involucrarse en el diseño de PCB. Creo que la automatización...
+
+60
+00:05:17,920 --> 00:05:22,520
+Va a transformar la industria de
+maneras profundas, podemos anticipar ciclos de diseño más rápidos.
+
+61
+00:05:22,520 --> 00:05:27,840
+Diseños más complejos que se vuelven manejables y un
+mayor énfasis en la colaboración y la agilidad
+
+62
+00:05:27,840 --> 00:05:32,360
+Herramientas como KiBot estarán a la vanguardia de esta
+transformación, permitiendo a los diseñadores centrarse en
+
+63
+00:05:32,360 --> 00:05:36,880
+Innovación y superación de los límites de lo
+posible. Parece que estamos en el umbral de un nuevo...
+
+64
+00:05:36,880 --> 00:05:43,080
+Era en el diseño electrónico en la que
+se amplifica el potencial creativo de ingenieros y diseñadores.
+
+65
+00:05:43,080 --> 00:05:48,800
+mediante potentes herramientas de automatización si nuestros oyentes están
+ansiosos por explorar KiBot más a fondo, ¿a dónde pueden ir?
+
+66
+00:05:48,800 --> 00:05:54,600
+Para aprender más y quizás incluso contribuir a este
+proyecto en evolución, la documentación de KiBot es una
+
+67
+00:05:54,600 --> 00:05:59,640
+Excelente punto de partida, es sorprendentemente accesible
+y está bien estructurado. Los foros de la comunidad KiCad son...
+
+68
+00:05:59,640 --> 00:06:04,680
+También son increíblemente valiosos al ofrecer un espacio
+para conectarse con otros usuarios que buscan ayuda y comparten.
+
+69
+00:06:04,680 --> 00:06:09,000
+conocimientos y, por supuesto, la belleza del código abierto
+es que cualquiera puede contribuir con nosotros, ya sea
+
+70
+00:06:09,000 --> 00:06:13,480
+Es a través de contribuciones de código, documentación,
+mejoras o simplemente compartiendo sus experiencias.
+
+71
+00:06:13,480 --> 00:06:18,600
+Con la herramienta, un verdadero testimonio del poder
+de la innovación impulsada por la comunidad, ahí lo tienes.
+
+72
+00:06:18,600 --> 00:06:22,840
+Lo tenemos, hemos viajado a través de las complejidades
+de KiBot desde sus humildes comienzos como personaje clave de la trama.
+
+73
+00:06:22,840 --> 00:06:27,720
+Hasta su surgimiento como una poderosa fuerza de automatización
+en el mundo del diseño de PCB, hemos explorado sus claves.
+
+74
+00:06:27,720 --> 00:06:32,400
+destaca su potencial para transformar los flujos de trabajo
+y las emocionantes posibilidades que abre para
+
+75
+00:06:32,400 --> 00:06:38,000
+El futuro del diseño electrónico si estás listo
+para sumergirte en el mundo del diseño automatizado de PCD
+
+76
+00:06:38,000 --> 00:06:42,680
+KiBot ofrece un camino atractivo y accesible hasta la próxima vez que tengas un feliz diseño.
+
