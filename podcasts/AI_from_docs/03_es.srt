@@ -1,102 +1,130 @@
 1
 00:00:00,160 --> 00:00:05,251
-Está bien, hoy vamos a profundizar en esta herramienta realmente genial que encontré, se llama KiBot.
+Está bien, hoy vamos a profundizar en esta herramienta
+realmente genial que encontré, se llama KiBot.
 
 2
 00:00:05,251 --> 00:00:11,489
-KiBot, sí Y está diseñada para trabajar con KiCad. Estoy seguro de que muchos de nuestros oyentes han oído hablar de ello, 
-quizás incluso lo usan.
+- KiBot, sí
+- Y está diseñada para trabajar con KiCad.
+Estoy seguro de que muchos de nuestros oyentes
+han oído hablar de ello, quizás incluso lo usan.
 
 3
 00:00:11,489 --> 00:00:14,845
-Es un software de diseño electrónico gratuito y de código abierto.
+Es un software de diseño electrónico
+gratuito y de código abierto.
 
 4
 00:00:14,845 --> 00:00:17,184
-Sí, se está volviendo muy popular, mucha gente lo usa.
+Sí, se está volviendo muy popular,
+mucha gente lo usa.
 
 5
 00:00:17,184 --> 00:00:25,798
-Sí, exactamente. Así que si alguien de los que nos escucha está cansado de esas tareas tediosas ya sabes, como todo lo aburrido que tienes que hacer cuando estás diseñando electrónica.
+Sí, exactamente.
+Así que si alguien de los que nos escucha está cansado
+de esas tareas tediosas ya sabes, como todo lo aburrido
+que tienes que hacer cuando estás diseñando electrónica.
 
 6
 00:00:25,798 --> 00:00:29,384
-Oh, cuéntame acerca de ello. Tantos clicks, - ¿verdad?
+- Oh, cuéntame acerca de ello. Tantos clicks
+- ¿Verdad?
 
 7
 00:00:29,384 --> 00:00:32,085
-Eso es lo que se supone que debe ser un bot, 
-tu nuevo mejor amigo.
+Eso es lo que se supone que debe ser
+KiBot, tu nuevo mejor amigo.
 
 8
 00:00:32,086 --> 00:00:37,293
-Sí, realmente puede cambiar las reglas del juego, especialmente si estás haciendo algún tipo de trabajo de diseño serio.
+Sí, realmente puede cambiar las reglas del juego,
+especialmente si estás haciendo algún tipo de trabajo
+de diseño serio.
 
 9
 00:00:37,293 --> 00:00:41,750
-Está bien, así que guíame desde el principio. ¿Qué tipo de tareas 
-automiza KiBot?
+Está bien, así que guíame desde el principio.
+¿Qué tipo de tareas automiza KiBot?
 
 10
 00:00:41,750 --> 00:00:46,996
-Bueno, lo principal es que maneja todos esos archivos de fabricación esenciales, como los archivos Gerber.
+Bueno, lo principal es que maneja todos esos archivos de
+fabricación esenciales, como los archivos Gerber.
 
 11
 00:00:46,996 --> 00:00:50,731
-Está bien, archivos Gerber, sí. Pero para las personas que no saben, ¿qué son?
+Está bien, archivos Gerber, sí.
+Pero para las personas que no saben, ¿qué son?
 
 12
 00:00:50,731 --> 00:00:56,171
-Así que los archivos Gerber son básicamente como, piénsalo como planos, pero para tu placa de circuito.
+Así que los archivos Gerber son básicamente como,
+piénsalo como planos, pero para tu placa de circuito.
 
 13
 00:00:56,171 --> 00:01:00,768
-Envías esos al fabricante y eso es lo que ellos utilizan para imprimir la placa de circuito.
+Envías esos al fabricante y eso es lo que ellos
+utilizan para imprimir la placa de circuito.
 
 14
 00:01:00,768 --> 00:01:07,321
-Así que, en lugar de que yo tenga que  ir y como averiguar todos los ajustes cada vez, KiBot se encarga de todo eso.
+Así que, en lugar de que yo tenga que ir y como averiguar
+todos los ajustes cada vez, KiBot se encarga de todo eso.
 
 15
 00:01:07,321 --> 00:01:14,354
-Exactamente, es un gran ahorro de tiempo y, honestamente, quita esa posibilidad de error humano.
+Exactamente, es un gran ahorro de tiempo y, honestamente,
+quita esa posibilidad de error humano.
 
 16
 00:01:14,354 --> 00:01:18,786
-Sabemos que si miras esas placas de circuito lo suficiente, estás destinado a arruinar algo. ¿Verdad?
+Sabemos que si miras esas placas de circuito lo suficiente,
+estás destinado a arruinar algo. ¿Verdad?
 
 17
 00:01:18,786 --> 00:01:22,813
-Oh sí, definitivamente. He estado ahí, lo he hecho, no es divertido,
+Oh sí, definitivamente. He estado ahí,
+lo hice, no es divertido,
 
 18
 00:01:22,813 --> 00:01:26,029
-así que definitivamente nos está salvando de algunos 
-ataques de pánico de fabricación ,
+así que definitivamente nos está salvando
+de algunos  ataques de pánico de fabricación,
 
 19
 00:01:26,029 --> 00:01:29,317
-eso es seguro. Está bien, así que eso es una cosa menos de qué preocuparse,
+- Seguro.
+- Está bien, así que eso es una cosa menos de qué preocuparse,
 
 20
 00:01:29,317 --> 00:01:36,166
-pero ¿qué hay de detectar esos errores antes de llegar a esa etapa, como durante el proceso de diseño real?
+pero ¿qué hay de detectar esos errores antes de llegar a
+esa etapa, como durante el proceso de diseño real?
 
 21
 00:01:36,166 --> 00:01:40,000
-Correcto, y ahí es donde entran los chequeos de reglas de diseño, el ERC y el DRC.
+Correcto, y ahí es donde entran los chequeos de
+reglas de diseño, el ERC y el DRC.
 
 22
 00:01:40,000 --> 00:01:43,188
-Es como tener a alguien mirando por tu hombro, revisando tu trabajo.
+Es como tener a alguien mirando por tu
+hombro, revisando tu trabajo.
 
 23
 00:01:43,188 --> 00:01:52,864
-Prácticamente, revisa y busca errores comunes, cualquier tipo de violaciones y realmente se asegura de que tu diseño sea, ya sabes, sólido y realmente fabricable.
+Prácticamente, revisa y busca errores comunes, cualquier
+tipo de violaciones y realmente se asegura de que tu diseño
+sea, ya sabes, sólido y realmente fabricable.
 
 24
 00:01:52,864 --> 00:01:57,719
-Eso es un alivio. Sí, a veces mi cerebro no puede manejar otro esquema. Lo siento.
+- Eso es un alivio.
+- Sí
+- A veces mi cerebro no puede manejar otro esquemático.
+- Lo siento.
 
 25
 00:01:57,719 --> 00:02:01,501
@@ -104,7 +132,8 @@ Es mucho, especialmente cuando trabajas por horas.
 
 26
 00:02:01,501 --> 00:02:05,522
-Está bien, así que hemos cubierto los archivos de fabricación y el chequeo de errores.
+Está bien, así que hemos cubierto los archivos
+de fabricación y el chequeo de errores.
 
 27
 00:02:05,522 --> 00:02:06,969
@@ -112,82 +141,112 @@ Está bien, así que hemos cubierto los archivos de fabricación y el chequeo de
 
 28
 00:02:06,969 --> 00:02:09,912
-Bueno, también puede hacer documentación. - ¿Documentación? ¿De verdad? Sí,
+- Bueno, también puede hacer documentación.
+- ¿Documentación? ¿De verdad?
+- Sí,
 
 29
 00:02:09,912 --> 00:02:16,761
-como tus listas de materiales, ya sabes, esas listas de cada componente que necesitas. KiBot genera esos para ti.
+como tus listas de materiales, ya sabes, esas listas de cada
+componente que necesitas. KiBot genera esos para ti.
 
 30
 00:02:16,761 --> 00:02:22,875
-Oh, wow.  - Sí, incluso te da una estimación de costos para que no estés atrapado tratando de dominar una hoja de cálculo a las dos de la mañana.
+- Oh, wow.
+- Sí, incluso te da una estimación de costos para que no estés
+atrapado tratando de dominar una hoja de cálculo a las dos de la mañana.
 
 31
 00:02:22,875 --> 00:02:32,036
-Está bien, así que también está ayudando con el presupuesto. 
-Eso es realmente increíble. Exactamente, es super útil, ya sea que estés haciendo esto como un pasatiempo o dirigiendo un negocio completo.
+- Está bien, así que también está ayudando con el presupuesto.
+Eso es realmente increíble.
+- Exactamente, es super útil, ya sea que estés haciendo esto
+como un pasatiempo o dirigiendo un negocio completo.
 
 32
 00:02:32,036 --> 00:02:38,318
-Está bien, tiene sentido. Wow, hasta ahora KiBot me está impresionando un poco.
+Está bien, tiene sentido. Wow, hasta ahora
+KiBot me está impresionando un poco.
 
 33
 00:02:38,318 --> 00:02:42,358
-Espera, hay más. - Oh, hay más. - Sí, ni siquiera hemos llegado a una de las partes más geniales.
+- Espera, hay más.
+- Oh, hay más.
+- Sí, ni siquiera hemos llegado a una de las partes más geniales.
 
 34
 00:02:42,358 --> 00:02:49,418
-KiBot también hace modelado 3D. - Modelado 3D, - sí, como modelos 3D de alta calidad de tus placas utilizando Blender.
+KiBot también hace modelado 3D.
+- Modelado 3D,
+- Sí, como modelos 3D de alta calidad de tus
+placas utilizando Blender.
 
 35
 00:02:49,418 --> 00:02:56,687
-Está bien, ahora eso realmente me interesa. Está bien, 
-así que antes de la pausa, me impresionaste un poco hablando sobre modelado 3D.
+Ok, ahora eso realmente me interesa.
+Ok, así que antes de la pausa, me impresionaste
+un poco hablando sobre modelado 3D.
 
 36
 00:02:56,687 --> 00:03:01,938
-Tengo mucha curiosidad al respecto. - Sí, es algo realmente genial. - Así que cuéntame, ¿cómo funciona realmente?
+Tengo mucha curiosidad al respecto.
+- Sí, es algo realmente genial.
+- Así que cuéntame, ¿cómo funciona realmente?
 
 37
 00:03:01,938 --> 00:03:10,416
-Bueno, KiBot básicamente toma tus diseños de KiCad, ¿verdad?, y luego los transforma en estos modelos 3D realmente detallados.
+Bueno, KiBot básicamente toma tus diseños de KiCad, ¿verdad?,
+y luego los transforma en estos modelos 3D realmente detallados.
 
 38
 00:03:10,416 --> 00:03:15,612
-Está bien, así que no estamos hablando solo de un bloque 3D básico aquí. - No, no, no, para nada.
+Está bien, así que no estamos hablando solo de un
+bloque 3D básico aquí.
+- No, no, no, para nada.
 
 39
 00:03:15,612 --> 00:03:21,867
-Como que te muestra los componentes, las ubicaciones, ya sabes, todos los detalles, incluso hasta los acabados de superficie.
+Como que te muestra los componentes, las ubicaciones, ya sabes,
+todos los detalles, incluso hasta los acabados de superficie.
 
 40
 00:03:21,867 --> 00:03:28,943
-Es bastante impresionante.  - Wow, eso es increíble. ¿Cuáles son las ventajas de tener, ya sabes, un modelo 3D de súper alta calidad así?
+Es bastante impresionante.
+- Wow, eso es increíble. ¿Cuáles son las ventajas de tener,
+ya sabes, un modelo 3D de súper alta calidad así?
 
 41
 00:03:28,943 --> 00:03:38,882
-Bueno, primero, visualizar el diseño. Ya no estás atrapado con esos esquemas planos. Puedes ver cómo encaja todo en 
+Bueno, primero, visualizar el diseño. Ya no estás atrapado
+con esos esquemas planos. Puedes ver cómo encaja todo en
 el espacio 3D.
 
 42
 00:03:38,882 --> 00:03:43,191
-Está bien, eso tiene mucho sentido. - Sí, hace que sea mucho más fácil detectar cualquier problema potencial,
+Está bien, eso tiene mucho sentido.
+- Sí, hace que sea mucho más fácil detectar
+cualquier problema potencial,
 
 43
 00:03:43,191 --> 00:03:48,823
-como que algo esté demasiado cerca o simplemente tener una idea del diseño, ya sabes.
+como que algo esté demasiado cerca o simplemente
+tener una idea del diseño, ya sabes.
 
 44
 00:03:48,823 --> 00:03:52,292
-Está bien, especialmente con placas más complejas, eso podría ser realmente útil.
+Está bien, especialmente con placas más complejas,
+eso podría ser realmente útil.
 
 45
 00:03:52,292 --> 00:03:59,955
-Totalmente. Y no es solo para el diseñador. Puedes usar estos modelos 3D para presentaciones, materiales de marketing, cosas así.
+Totalmente. Y no es solo para el diseñador.
+Puedes usar estos modelos 3D para presentaciones,
+materiales de marketing, cosas así.
 
 46
 00:03:59,955 --> 00:04:02,960
-Sí, definitivamente. Quiero decir, a todos les encanta un buen render 3D.
+Sí, definitivamente. Quiero decir, a todos
+les encanta un buen render 3D.
 
 47
 00:04:02,960 --> 00:04:06,572
@@ -195,104 +254,131 @@ Es mucho más emocionante que solo mirar un dibujo en 2D.
 
 48
 00:04:06,572 --> 00:04:12,948
-Oh, por supuesto, y lo que es genial es que, como utiliza Blender, que es un software de modelado 3D realmente potente,
+Oh, por supuesto, y lo que es genial es que, como
+utiliza Blender, que es un software de modelado
+3D realmente potente,
 
 49
 00:04:12,948 --> 00:04:18,127
-no solo estás limitado a verlo, también puedes exportarlo en diferentes formatos y usarlo con otras herramientas.
+no solo estás limitado a verlo, también puedes exportarlo
+en diferentes formatos y usarlo con otras herramientas.
 
 50
 00:04:18,127 --> 00:04:23,039
-Oh, está bien, así que podrías tomar el modelo de KiBot y usarlo en un programa completamente diferente.
+Oh, está bien, así que podrías tomar el modelo de KiBot y
+usarlo en un programa completamente diferente.
 
 51
 00:04:23,039 --> 00:04:29,177
-Exactamente. 
-Así que dame un ejemplo. ¿Cómo usarías eso? Bueno, digamos que estás trabajando con unos ingenieros mecánicos
+- Exactamente.
+- Así que dame un ejemplo. ¿Cómo usarías eso?
+- Bueno, digamos que estás trabajando con unos ingenieros mecánicos
 
 52
 00:04:29,177 --> 00:04:36,288
 y están diseñando la carcasa para tu placa. 
-Puedes exportar el modelo de KiBot y enviárselo, y ellos pueden usarlo en su software CAD.
+Puedes exportar el modelo de KiBot y enviárselo,
+y ellos pueden usarlo en su software CAD.
 
 53
 00:04:36,288 --> 00:04:43,717
-Oh, así que pueden asegurarse de que todo encaje correctamente y todo. - Sí, exactamente, no más 
-ir y venir tratando de describir todo por correo electrónico.
+- Oh, así que pueden asegurarse de que todo encaje correctamente y todo.
+- Sí, exactamente, no más ir y venir tratando de
+describir todo por correo electrónico.
 
 54
 00:04:43,717 --> 00:04:47,850
-Eso es enorme porque esos choques de diseño pueden ser un verdadero dolor,
+Eso es enorme porque esos choques de
+diseño pueden ser un verdadero dolor,
 
 55
 00:04:47,850 --> 00:04:56,369
-o incluso si solo quieres hacer algunas simulaciones, como ver 
-cómo va a funcionar tu placa bajo diferentes condiciones, puedes usar esos modelos para eso también.
+O incluso si solo quieres hacer algunas simulaciones, como ver
+cómo va a funcionar tu placa bajo diferentes condiciones,
+puedes usar esos modelos para eso también.
 
 56
 00:04:56,369 --> 00:05:01,958
-Wow, es como si le estuvieras dando a tu diseño una prueba virtual antes de que siquiera lo fabriques.
+Wow, es como si le estuvieras dando a tu diseño una prueba
+virtual antes de que siquiera lo fabriques.
 
 57
 00:05:01,958 --> 00:05:09,474
-Exactamente, y este tipo de integración 3D no es algo que veas en muchas herramientas gratuitas y de código abierto.
+Exactamente, y este tipo de integración 3D no es algo
+que veas en muchas herramientas gratuitas y de código abierto.
 
 58
 00:05:09,474 --> 00:05:12,383
-Es realmente notable lo que están haciendo con KiBot.
+Es realmente notable lo que
+están haciendo con KiBot.
 
 59
 00:05:12,383 --> 00:05:19,416
-Es muy, muy genial. Está bien, así que hablamos sobre el modelado 3D, pero hay una cosa más de la que realmente quería preguntarte,
+Es muy, muy genial. Está bien, así que hablamos sobre
+el modelado 3D, pero hay una cosa más de la que realmente
+quería preguntarte,
 
 60
 00:05:19,416 --> 00:05:26,168
-y son las variantes de producto. Definitivamente he trabajado en proyectos donde necesitábamos algunas 
-versiones diferentes de la misma placa
+y son las variantes de producto. Definitivamente he trabajado
+en proyectos donde necesitábamos algunas versiones diferentes
+de la misma placa
 
 61
 00:05:26,168 --> 00:05:31,642
 y siempre es un poco complicado de gestionar. Así que antes 
-de la pausa, hablábamos sobre las variantes de producto y tengo que decir
+de la pausa, hablábamos sobre las variantes de producto
+y tengo que decir
 
 62
 00:05:31,642 --> 00:05:36,948
-que para alguien como yo que odia jugar con un millón de archivos diferentes, esto suena como un sueño hecho realidad.
+que para alguien como yo que odia usar un millón
+de archivos diferentes, esto suena como un sueño
+hecho realidad.
 
 63
 00:05:36,948 --> 00:05:42,395
-Oh sí, es un salvavidas. - Así que 
-¿cómo hace KiBot para manejar tan fácilmente todas estas diferentes variaciones?
+- Oh sí, es un salvavidas.
+- Así que ¿cómo hace KiBot para manejar tan fácilmente
+todas estas diferentes variaciones?
 
 64
 00:05:42,395 --> 00:05:46,109
-Imagina esto: tienes tu diseño base de placa de circuito, ¿verdad?,
+Imagina esto: tienes tu diseño base
+de placa de circuito, ¿verdad?,
 
 65
 00:05:46,109 --> 00:05:49,389
-pero necesitas algunas versiones diferentes, solo con pequeños ajustes aquí y allá, ¿verdad?
+pero necesitas algunas versiones diferentes,
+solo con pequeños ajustes aquí y allá, ¿verdad?
 
 66
 00:05:49,389 --> 00:05:53,721
-Como que tal vez una necesita un conector diferente o estás intercambiando un módulo inalámbrico 
-o algo así.
+Como que tal vez una necesita un conector
+diferente o estás intercambiando un módulo
+inalámbrico o algo así.
 
 67
 00:05:53,721 --> 00:05:59,224
-Exactamente, y en lugar de tener que crear archivos separados para cada versión,
+Exactamente, y en lugar de tener que crear
+archivos separados para cada versión,
 
 68
 00:05:59,224 --> 00:06:02,890
-KiBot te permite gestionar todas esas variaciones dentro del mismo proyecto.
+KiBot te permite gestionar todas esas
+variaciones dentro del mismo proyecto.
 
 69
 00:06:02,890 --> 00:06:09,415
-Oh, wow, así que todo está en un solo lugar. 
-Sí, básicamente configuras parámetros, ¿verdad?, y diferentes opciones para cosas.
+- Oh, wow, así que todo está en un solo lugar.
+- Sí, básicamente configuras parámetros, ¿verdad?,
+y diferentes opciones para cosas.
 
 70
 00:06:09,415 --> 00:06:17,134
-Así que para tu módulo inalámbrico, digamos que viene en Bluetooth, Wi-Fi y celular. Le dices a KiBot, "Oye, este componente podría ser cualquiera de estos."
+Así que para tu módulo inalámbrico, digamos que viene
+en Bluetooth, Wi-Fi y celular. Le dices a KiBot,
+"Oye, este componente podría ser cualquiera de estos."
 
 71
 00:06:17,134 --> 00:06:20,000
@@ -300,19 +386,24 @@ Es como tener un menú desplegable justo allí en tu diseño,
 
 72
 00:06:20,000 --> 00:06:25,430
-Para que no tengas que volver a intercambiar manualmente componentes cada vez que necesitas una versión diferente.
+Para que no tengas que volver a intercambiar manualmente
+componentes cada vez que necesitas una versión diferente.
 
 73
 00:06:25,430 --> 00:06:32,773
-Sí, cuando estés listo para generar tus archivos de salida, solo eliges qué variante quieres y KiBot hace el resto.
+Sí, cuando estés listo para generar tus archivos de salida,
+solo eliges qué variante quieres y KiBot hace el resto.
 
 74
 00:06:32,773 --> 00:06:37,286
-Eso es mucho más elegante que la forma en que he estado haciéndolo. ¿Y qué hay de la documentación?
+Eso es mucho más elegante que la forma en que he estado
+haciéndolo. ¿Y qué hay de la documentación?
 
 75
 00:06:37,286 --> 00:06:44,929
-¿También la maneja para cada variante? Absolutamente. Obtienes los dibujos de ensamblaje correctos, todo para la variante que elijas.
+- ¿También la maneja para cada variante?
+- Absolutamente. Obtienes los dibujos de ensamblaje correctos,
+todo para la variante que elijas.
 
 76
 00:06:44,929 --> 00:06:48,033
@@ -321,50 +412,62 @@ archivos correctos.
 
 77
 00:06:48,033 --> 00:06:53,352
-Está bien, en serio, eso es asombroso, especialmente para proyectos más grandes, que podrían ahorrar tanto tiempo y confusión.
+Está bien, en serio, eso es asombroso, especialmente
+para proyectos más grandes, que podrían ahorrar tanto
+tiempo y confusión.
 
 78
 00:06:53,352 --> 00:06:59,341
-Es como si KiBot trajera orden al caos. 
-Exactamente, y esto no es solo para ajustes pequeños.
+- Es como si KiBot trajera orden al caos.
+- Exactamente, y esto no es solo para ajustes pequeños.
 
 79
 00:06:59,341 --> 00:07:04,565
-Puedes incluso crear productos completamente diferentes 
-a partir de ese mismo diseño base.
+Puedes incluso crear productos completamente
+diferentes a partir de ese mismo diseño base.
 
 80
 00:07:04,565 --> 00:07:09,194
-Oh, wow, así que tú podrías tener un diseño base que funcione como una plataforma para toda una línea de productos.
+Oh, wow, así que tú podrías tener un diseño base
+que funcione como una plataforma para toda una
+línea de productos.
 
 81
 00:07:09,194 --> 00:07:13,447
-Exactamente, piensa en cómo los diseñadores utilizan el tiempo y el dinero que ahorras.
+Exactamente, piensa en cómo los diseñadores
+utilizan el tiempo y el dinero que ahorras.
 
 82
 00:07:13,447 --> 00:07:16,980
-KiBot realmente está trayendo estas funciones de alto nivel a todos, lo cual es increíble.
+KiBot realmente está trayendo estas funciones
+de alto nivel a todos, lo cual es increíble.
 
 83
 00:07:16,980 --> 00:07:21,629
-Es asombroso cuánto puedes hacer con esta herramienta, honestamente. Hemos cubierto tanto:
+Es asombroso cuánto puedes hacer con esta
+herramienta, honestamente. Hemos cubierto tanto:
 
 84
 00:07:21,629 --> 00:07:28,134
-automatizando todas esas tareas tediosas, creando increíbles modelos 3D y ahora gestionando todas estas variantes de producto.
+automatizando todas esas tareas tediosas, creando
+increíbles modelos 3D y ahora gestionando todas
+estas variantes de producto.
 
 85
 00:07:28,134 --> 00:07:33,507
-KiBot suena como si tuviera todo cubierto.  - Sí, es realmente notable lo que han logrado reunir.
+- KiBot suena como si tuviera todo cubierto.
+- Sí, es realmente notable lo que han logrado reunir.
 
 86
 00:07:33,507 --> 00:07:38,539
-Lo más genial es que es de código abierto, 
-¿verdad? Así que está en constante evolución, siempre mejorando.
+Lo más genial es que es de código abierto, ¿verdad?
+Así que está en constante evolución, siempre mejorando.
 
 87
 00:07:38,539 --> 00:07:43,116
-Exactamente, hay toda una comunidad de desarrolladores que están constantemente añadiendo nuevas características y haciéndolo aún mejor.
+Exactamente, hay toda una comunidad de desarrolladores
+que están constantemente añadiendo nuevas características
+y haciéndolo aún mejor.
 
 88
 00:07:43,116 --> 00:07:45,000
@@ -372,20 +475,25 @@ Eso es lo que me encanta de lo de código abierto.
 
 89
 00:07:45,000 --> 00:07:48,960
-¿Tienes alguna predicción para el futuro de KiBot? ¿Dónde lo ves yendo?
+¿Tienes alguna predicción para el futuro de KiBot?
+¿Dónde lo ves yendo?
 
 90
 00:07:48,960 --> 00:07:55,223
-Bueno, es difícil decirlo con certeza, pero creo que es parte de esta tendencia más amplia, ya sabes,
+Bueno, es difícil decirlo con certeza, pero creo que
+es parte de esta tendencia más amplia, ya sabes,
 
 91
 00:07:55,223 --> 00:07:59,198
-estas herramientas de diseño realmente poderosas se están volviendo accesibles para todos.
+estas herramientas de diseño realmente poderosas
+se están volviendo accesibles para todos.
 
 92
 00:07:59,198 --> 00:08:08,158
 Así que, a medida que evoluciona, creo que KiBot tiene 
-el potencial de hacer que el diseño de electrónica avanzada sea algo que cualquiera pueda hacer, no solo grandes empresas con grandes presupuestos.
+el potencial de hacer que el diseño de electrónica
+avanzada sea algo que cualquiera pueda hacer, no solo
+grandes empresas con grandes presupuestos.
 
 93
 00:08:08,158 --> 00:08:10,612
@@ -393,25 +501,34 @@ Esa es una idea tan emocionante.
 
 94
 00:08:10,612 --> 00:08:16,597
-Quién sabe qué increíbles invenciones surgirán cuando tengan este tipo de herramientas al alcance de su mano.
+Quién sabe qué increíbles invenciones surgirán cuando tengan
+este tipo de herramientas al alcance de su mano.
 
 95
 00:08:16,597 --> 00:08:21,580
-Bueno, tengo que decir que esta inmersión en KiBot ha sido realmente reveladora.
+Bueno, tengo que decir que esta inmersión en
+KiBot ha sido realmente reveladora.
 
 96
 00:08:21,580 --> 00:08:27,188
-Creo que es un recurso increíble para cualquiera, ya sea que estés comenzando con la electrónica o seas un profesional experimentado.
+Creo que es un recurso increíble para cualquiera,
+ya sea que estés comenzando con la electrónica o
+seas un profesional experimentado.
 
 97
 00:08:27,188 --> 00:08:29,703
-Estoy totalmente de acuerdo, definitivamente vale la pena echarle un vistazo.
+Estoy totalmente de acuerdo, definitivamente
+vale la pena echarle un vistazo.
 
 98
 00:08:29,703 --> 00:08:35,429
-Y para cualquiera que esté escuchando y se sienta inspirado, pueden encontrar enlaces a todo lo que hablamos hoy en las notas del programa,
+Y para cualquiera que esté escuchando y se sienta
+inspirado, pueden encontrar enlaces a todo lo que
+hablamos hoy en las notas del programa,
 
 99
 00:08:35,429 --> 00:08:39,200
-así que asegúrense de revisarlo y háganos saber qué piensan. Hasta la próxima.
+así que asegúrense de revisarlo y háganos saber
+qué piensan.
+Hasta la próxima.
 
