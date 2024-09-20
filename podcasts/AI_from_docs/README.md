@@ -9,4 +9,4 @@ The podcast generation was in beta (09/2024).
 I added v1.7.1 docs, using the ReadTheDocs URL.
 The result is good, but with various *hallucinations*
 
-https://raw.githubusercontent.com/set-soft/KiBot-media/main/podcasts/AI_from_docs/01_KiBot.wav
+https://media.githubusercontent.com/media/set-soft/KiBot-media/main/podcasts/AI_from_docs/01_KiBot.wav
