@@ -1,488 +1,417 @@
 1
-00:00:00,160 --> 00:00:07,040
-Está bien, hoy vamos a profundizar en esta herramienta realmente genial 
-que encontré, se llama KiBot. KiBot, sí, y está diseñada para trabajar con KiCad.
+00:00:00,160 --> 00:00:05,251
+Está bien, hoy vamos a profundizar en esta herramienta realmente genial que encontré, se llama KiBot.
 
 2
-00:00:07,040 --> 00:00:11,600
-Estoy seguro de que muchos de nuestros oyentes han oído hablar de ello, 
-quizás incluso lo usan. Es un
+00:00:05,251 --> 00:00:11,489
+KiBot, sí Y está diseñada para trabajar con KiCad. Estoy seguro de que muchos de nuestros oyentes han oído hablar de ello, 
+quizás incluso lo usan.
 
 3
-00:00:11,600 --> 00:00:16,360
-software de diseño electrónico gratuito y de código abierto. Sí, se está volviendo 
-muy popular, mucha
+00:00:11,489 --> 00:00:14,845
+Es un software de diseño electrónico gratuito y de código abierto.
 
 4
-00:00:16,360 --> 00:00:21,840
-gente lo usa. Sí, exactamente. Así que si alguien de 
-los que nos escucha está cansado de esas tareas tediosas
+00:00:14,845 --> 00:00:17,184
+Sí, se está volviendo muy popular, mucha gente lo usa.
 
 5
-00:00:21,840 --> 00:00:26,920
-ya sabes, como todo lo aburrido que tienes que hacer 
-cuando estás diseñando electrónica. Oh, cuéntame
+00:00:17,184 --> 00:00:25,798
+Sí, exactamente. Así que si alguien de los que nos escucha está cansado de esas tareas tediosas ya sabes, como todo lo aburrido que tienes que hacer cuando estás diseñando electrónica.
 
 6
-00:00:26,920 --> 00:00:32,440
-acerca de ello. Tantas clics, ¿verdad? Eso es lo que se supone que debe ser un bot, 
-tu nuevo mejor amigo. Sí, realmente puede
+00:00:25,798 --> 00:00:29,384
+Oh, cuéntame acerca de ello. Tantos clicks, - ¿verdad?
 
 7
-00:00:32,440 --> 00:00:37,800
-cambiar las reglas del juego, especialmente si estás 
-haciendo algún tipo de trabajo de diseño serio. Está bien, así que
+00:00:29,384 --> 00:00:32,085
+Eso es lo que se supone que debe ser un bot, 
+tu nuevo mejor amigo.
 
 8
-00:00:37,800 --> 00:00:42,400
-guíame desde el principio. ¿Qué tipo de tareas 
-automiza KiBot? Bueno, lo principal
+00:00:32,086 --> 00:00:37,293
+Sí, realmente puede cambiar las reglas del juego, especialmente si estás haciendo algún tipo de trabajo de diseño serio.
 
 9
-00:00:42,400 --> 00:00:48,440
-es que maneja todos esos archivos de fabricación esenciales, 
-como los archivos Gerber. Está bien, archivos Gerber, sí.
+00:00:37,293 --> 00:00:41,750
+Está bien, así que guíame desde el principio. ¿Qué tipo de tareas 
+automiza KiBot?
 
 10
-00:00:48,440 --> 00:00:53,320
-Pero para las personas que no saben, ¿qué son? Así que 
-los archivos Gerber son básicamente como, piénsalo como
+00:00:41,750 --> 00:00:46,996
+Bueno, lo principal es que maneja todos esos archivos de fabricación esenciales, como los archivos Gerber.
 
 11
-00:00:53,320 --> 00:00:58,360
-planos, pero para tu placa de circuito. Envías 
-esos al fabricante y eso es lo que ellos
+00:00:46,996 --> 00:00:50,731
+Está bien, archivos Gerber, sí. Pero para las personas que no saben, ¿qué son?
 
 12
-00:00:58,360 --> 00:01:02,800
-utilizan para imprimir la placa de circuito. Así que, en lugar de que yo tenga que 
-ir y
+00:00:50,731 --> 00:00:56,171
+Así que los archivos Gerber son básicamente como, piénsalo como planos, pero para tu placa de circuito.
 
 13
-00:01:02,800 --> 00:01:08,000
-como averiguar todos los ajustes cada vez, KiBot se encarga de 
-todo eso. Exactamente, es un gran ahorro de tiempo y, 
+00:00:56,171 --> 00:01:00,768
+Envías esos al fabricante y eso es lo que ellos utilizan para imprimir la placa de circuito.
 
 14
-00:01:08,000 --> 00:01:13,760
-honestamente, quita esa posibilidad de error humano. 
-Sabemos que si miras esas placas de circuito lo suficiente, 
+00:01:00,768 --> 00:01:07,321
+Así que, en lugar de que yo tenga que  ir y como averiguar todos los ajustes cada vez, KiBot se encarga de todo eso.
 
 15
-00:01:13,760 --> 00:01:18,320
-estás destinado a arruinar algo. ¿Verdad? Oh sí, 
-definitivamente. He estado ahí, lo he hecho, no es divertido, así que 
+00:01:07,321 --> 00:01:14,354
+Exactamente, es un gran ahorro de tiempo y, honestamente, quita esa posibilidad de error humano.
 
 16
-00:01:18,320 --> 00:01:24,400
-definitivamente nos está salvando de algunos 
-ataques de pánico de fabricación en la madrugada, eso es seguro.
+00:01:14,354 --> 00:01:18,786
+Sabemos que si miras esas placas de circuito lo suficiente, estás destinado a arruinar algo. ¿Verdad?
 
 17
-00:01:24,400 --> 00:01:29,520
-Está bien, así que eso es una cosa menos de qué preocuparse, pero 
-¿qué hay de detectar esos errores antes de llegar a esa etapa, 
+00:01:18,786 --> 00:01:22,813
+Oh sí, definitivamente. He estado ahí, lo he hecho, no es divertido,
 
 18
-00:01:29,520 --> 00:01:35,440
-como durante el proceso de diseño real? 
-Correcto, y ahí es donde entran los chequeos de reglas de diseño, 
+00:01:22,813 --> 00:01:26,029
+así que definitivamente nos está salvando de algunos 
+ataques de pánico de fabricación ,
 
 19
-00:01:35,440 --> 00:01:40,520
-el ERC y el DRC. Es como tener 
-a alguien mirando por tu hombro, revisando tu trabajo. 
+00:01:26,029 --> 00:01:29,317
+eso es seguro. Está bien, así que eso es una cosa menos de qué preocuparse,
 
 20
-00:01:40,520 --> 00:01:44,840
-Prácticamente, revisa y busca 
-errores comunes, cualquier tipo de violaciones y 
+00:01:29,317 --> 00:01:36,166
+pero ¿qué hay de detectar esos errores antes de llegar a esa etapa, como durante el proceso de diseño real?
 
 21
-00:01:44,840 --> 00:01:50,000
-realmente se asegura de que tu diseño sea, ya sabes, sólido y realmente 
-fabricable. Eso es un alivio. Sí, a veces mi cerebro 
+00:01:36,166 --> 00:01:40,000
+Correcto, y ahí es donde entran los chequeos de reglas de diseño, el ERC y el DRC.
 
 22
-00:01:50,000 --> 00:01:55,320
-no puede manejar otro esquema. Lo siento. Es mucho, 
-especialmente cuando estás en la zona durante horas. Está bien, 
+00:01:40,000 --> 00:01:43,188
+Es como tener a alguien mirando por tu hombro, revisando tu trabajo.
 
 23
-00:01:55,320 --> 00:02:01,760
-así que hemos cubierto los archivos de fabricación y el 
-chequeo de errores. ¿Qué más puede hacer esta cosa? Bueno,
+00:01:43,188 --> 00:01:52,864
+Prácticamente, revisa y busca errores comunes, cualquier tipo de violaciones y realmente se asegura de que tu diseño sea, ya sabes, sólido y realmente fabricable.
 
 24
-00:02:01,760 --> 00:02:07,040
-también puede hacer documentación. ¿Documentación? 
-¿De verdad? Sí, como tus listas de materiales, ya sabes, esas
+00:01:52,864 --> 00:01:57,719
+Eso es un alivio. Sí, a veces mi cerebro no puede manejar otro esquema. Lo siento.
 
 25
-00:02:07,040 --> 00:02:12,360
-listas de cada componente que necesitas. KiBot genera 
-esos para ti. Oh, wow. Sí, incluso te da una estimación de costos 
+00:01:57,719 --> 00:02:01,501
+Es mucho, especialmente cuando trabajas por horas.
 
 26
-00:02:12,360 --> 00:02:18,600
-para que no estés atrapado tratando de 
-dominar una hoja de cálculo a las dos de la mañana.
+00:02:01,501 --> 00:02:05,522
+Está bien, así que hemos cubierto los archivos de fabricación y el chequeo de errores.
 
 27
-00:02:18,600 --> 00:02:22,960
-Está bien, así que también está ayudando con el presupuesto. 
-Eso es realmente increíble. Exactamente, es super
+00:02:05,522 --> 00:02:06,969
+¿Qué más puede hacer esta cosa?
 
 28
-00:02:22,960 --> 00:02:27,440
-útil, ya sea que estés haciendo esto como un 
-pasatiempo o dirigiendo un negocio completo. Está bien,
+00:02:06,969 --> 00:02:09,912
+Bueno, también puede hacer documentación. - ¿Documentación? ¿De verdad? Sí,
 
 29
-00:02:27,440 --> 00:02:32,240
-tiene sentido. Wow, hasta ahora KiBot me está impresionando 
-un poco. Espera, hay más. Oh, hay más.
+00:02:09,912 --> 00:02:16,761
+como tus listas de materiales, ya sabes, esas listas de cada componente que necesitas. KiBot genera esos para ti.
 
 30
-00:02:32,240 --> 00:02:39,640
-Sí, ni siquiera hemos llegado a una de las 
-partes más geniales. KiBot también hace modelado 3D. Modelado 3D,
+00:02:16,761 --> 00:02:22,875
+Oh, wow.  - Sí, incluso te da una estimación de costos para que no estés atrapado tratando de dominar una hoja de cálculo a las dos de la mañana.
 
 31
-00:02:39,640 --> 00:02:44,720
-sí, como modelos 3D de alta calidad 
-de tus placas utilizando Blender. 
+00:02:22,875 --> 00:02:32,036
+Está bien, así que también está ayudando con el presupuesto. 
+Eso es realmente increíble. Exactamente, es super útil, ya sea que estés haciendo esto como un pasatiempo o dirigiendo un negocio completo.
 
 32
-00:02:44,720 --> 00:02:51,280
-Está bien, ahora eso realmente me interesa. Está bien, 
-así que antes de la pausa, me impresionaste un poco hablando sobre
+00:02:32,036 --> 00:02:38,318
+Está bien, tiene sentido. Wow, hasta ahora KiBot me está impresionando un poco.
 
 33
-00:02:51,280 --> 00:02:55,640
-modelado 3D. Tengo mucha curiosidad al respecto. Sí, 
-es algo realmente genial. Así que cuéntame, ¿cómo funciona 
+00:02:38,318 --> 00:02:42,358
+Espera, hay más. - Oh, hay más. - Sí, ni siquiera hemos llegado a una de las partes más geniales.
 
 34
-00:02:55,640 --> 00:03:00,680
-realmente? Bueno, KiBot básicamente toma tus 
-diseños de KiCad, ¿verdad?, y luego los transforma 
+00:02:42,358 --> 00:02:49,418
+KiBot también hace modelado 3D. - Modelado 3D, - sí, como modelos 3D de alta calidad de tus placas utilizando Blender.
 
 35
-00:03:00,680 --> 00:03:06,480
-en estos modelos 3D realmente detallados. Está bien, 
-así que no estamos hablando solo de un bloque 3D básico aquí.
+00:02:49,418 --> 00:02:56,687
+Está bien, ahora eso realmente me interesa. Está bien, 
+así que antes de la pausa, me impresionaste un poco hablando sobre modelado 3D.
 
 36
-00:03:06,480 --> 00:03:13,520
-No, no, no, para nada. Como que te muestra los 
-componentes, las ubicaciones, ya sabes, todos los 
+00:02:56,687 --> 00:03:01,938
+Tengo mucha curiosidad al respecto. - Sí, es algo realmente genial. - Así que cuéntame, ¿cómo funciona realmente?
 
 37
-00:03:13,520 --> 00:03:18,520
-detalles, incluso hasta los acabados de superficie. 
-Es bastante impresionante. Wow, eso es increíble. 
+00:03:01,938 --> 00:03:10,416
+Bueno, KiBot básicamente toma tus diseños de KiCad, ¿verdad?, y luego los transforma en estos modelos 3D realmente detallados.
 
 38
-00:03:18,520 --> 00:03:24,080
-¿Cuáles son las ventajas de tener, ya sabes, 
-un modelo 3D de súper alta calidad así? 
+00:03:10,416 --> 00:03:15,612
+Está bien, así que no estamos hablando solo de un bloque 3D básico aquí. - No, no, no, para nada.
 
 39
-00:03:24,080 --> 00:03:29,000
-Bueno, primero, visualizar el diseño. Ya no 
-estás atrapado con esos esquemas planos.
+00:03:15,612 --> 00:03:21,867
+Como que te muestra los componentes, las ubicaciones, ya sabes, todos los detalles, incluso hasta los acabados de superficie.
 
 40
-00:03:29,000 --> 00:03:35,640
-Puedes ver cómo encaja todo en 
-el espacio 3D. Está bien, eso tiene mucho sentido. 
+00:03:21,867 --> 00:03:28,943
+Es bastante impresionante.  - Wow, eso es increíble. ¿Cuáles son las ventajas de tener, ya sabes, un modelo 3D de súper alta calidad así?
 
 41
-00:03:35,640 --> 00:03:40,640
-Sí, hace que sea mucho más fácil detectar cualquier 
-problema potencial, como que algo esté demasiado cerca o 
+00:03:28,943 --> 00:03:38,882
+Bueno, primero, visualizar el diseño. Ya no estás atrapado con esos esquemas planos. Puedes ver cómo encaja todo en 
+el espacio 3D.
 
 42
-00:03:40,640 --> 00:03:46,160
-simplemente tener una idea del diseño, ya sabes. Está bien, 
-especialmente con placas más complejas, eso podría ser
+00:03:38,882 --> 00:03:43,191
+Está bien, eso tiene mucho sentido. - Sí, hace que sea mucho más fácil detectar cualquier problema potencial,
 
 43
-00:03:46,160 --> 00:03:51,440
-realmente útil. Totalmente. Y no es solo para el 
-diseñador, tampoco. Puedes usar estos modelos 3D para
+00:03:43,191 --> 00:03:48,823
+como que algo esté demasiado cerca o simplemente tener una idea del diseño, ya sabes.
 
 44
-00:03:51,440 --> 00:03:56,840
-presentaciones, materiales de marketing, cosas así. 
-Sí, definitivamente. Quiero decir, 
+00:03:48,823 --> 00:03:52,292
+Está bien, especialmente con placas más complejas, eso podría ser realmente útil.
 
 45
-00:03:56,840 --> 00:04:02,240
-a todos les encanta un buen render 3D. 
-Es mucho más emocionante que solo mirar 
+00:03:52,292 --> 00:03:59,955
+Totalmente. Y no es solo para el diseñador. Puedes usar estos modelos 3D para presentaciones, materiales de marketing, cosas así.
 
 46
-00:04:02,240 --> 00:04:08,280
-un dibujo en 2D. Oh, por supuesto, y lo que es genial es 
-que, como utiliza Blender, que es un software de
+00:03:59,955 --> 00:04:02,960
+Sí, definitivamente. Quiero decir, a todos les encanta un buen render 3D.
 
 47
-00:04:08,280 --> 00:04:13,360
-modelado 3D realmente potente, no solo estás 
-limitado a verlo, también puedes exportarlo 
+00:04:02,960 --> 00:04:06,572
+Es mucho más emocionante que solo mirar un dibujo en 2D.
 
 48
-00:04:13,360 --> 00:04:18,200
-en diferentes formatos y usarlo con otras herramientas. 
-Oh, está bien, así que podrías tomar el modelo de KiBot y 
+00:04:06,572 --> 00:04:12,948
+Oh, por supuesto, y lo que es genial es que, como utiliza Blender, que es un software de modelado 3D realmente potente,
 
 49
-00:04:18,200 --> 00:04:23,480
-usarlo en un programa completamente diferente. Exactamente. 
-Así que dame un ejemplo. ¿Cómo usarías eso? 
+00:04:12,948 --> 00:04:18,127
+no solo estás limitado a verlo, también puedes exportarlo en diferentes formatos y usarlo con otras herramientas.
 
 50
-00:04:23,480 --> 00:04:28,600
-Bueno, digamos que estás trabajando con unos ingenieros mecánicos
+00:04:18,127 --> 00:04:23,039
+Oh, está bien, así que podrías tomar el modelo de KiBot y usarlo en un programa completamente diferente.
 
 51
-00:04:28,600 --> 00:04:33,520
-y están diseñando la carcasa para tu placa. 
-Puedes exportar el modelo de KiBot y
+00:04:23,039 --> 00:04:29,177
+Exactamente. 
+Así que dame un ejemplo. ¿Cómo usarías eso? Bueno, digamos que estás trabajando con unos ingenieros mecánicos
 
 52
-00:04:33,520 --> 00:04:38,160
-enviárselo, y ellos pueden usarlo en 
-su software CAD. Oh, así que pueden asegurarse de que
+00:04:29,177 --> 00:04:36,288
+y están diseñando la carcasa para tu placa. 
+Puedes exportar el modelo de KiBot y enviárselo, y ellos pueden usarlo en su software CAD.
 
 53
-00:04:38,160 --> 00:04:42,760
-todo encaje correctamente y todo. Sí, exactamente, no más 
-ir y venir tratando de describir todo por
+00:04:36,288 --> 00:04:43,717
+Oh, así que pueden asegurarse de que todo encaje correctamente y todo. - Sí, exactamente, no más 
+ir y venir tratando de describir todo por correo electrónico.
 
 54
-00:04:42,760 --> 00:04:49,080
-correo electrónico. Eso es enorme porque esos 
-choques de diseño pueden ser un verdadero dolor, 
+00:04:43,717 --> 00:04:47,850
+Eso es enorme porque esos choques de diseño pueden ser un verdadero dolor,
 
 55
-00:04:49,080 --> 00:04:54,080
+00:04:47,850 --> 00:04:56,369
 o incluso si solo quieres hacer algunas simulaciones, como ver 
-cómo va a funcionar tu placa bajo diferentes
+cómo va a funcionar tu placa bajo diferentes condiciones, puedes usar esos modelos para eso también.
 
 56
-00:04:54,080 --> 00:04:58,760
-condiciones, puedes usar esos modelos para eso también. 
-Wow, es como si le estuvieras dando a tu diseño una
+00:04:56,369 --> 00:05:01,958
+Wow, es como si le estuvieras dando a tu diseño una prueba virtual antes de que siquiera lo fabriques.
 
 57
-00:04:58,760 --> 00:05:05,040
-prueba virtual antes de que siquiera lo fabriques. 
-Exactamente, y este tipo de integración 3D no es
+00:05:01,958 --> 00:05:09,474
+Exactamente, y este tipo de integración 3D no es algo que veas en muchas herramientas gratuitas y de código abierto.
 
 58
-00:05:05,040 --> 00:05:11,400
-algo que veas en muchas herramientas gratuitas y de 
-código abierto. Es realmente notable lo que
+00:05:09,474 --> 00:05:12,383
+Es realmente notable lo que están haciendo con KiBot.
 
 59
-00:05:11,400 --> 00:05:16,920
-están haciendo con KiBot. Es muy, muy genial. Está bien, 
-así que hablamos sobre el modelado 3D, pero hay una
+00:05:12,383 --> 00:05:19,416
+Es muy, muy genial. Está bien, así que hablamos sobre el modelado 3D, pero hay una cosa más de la que realmente quería preguntarte,
 
 60
-00:05:16,920 --> 00:05:21,520
-cosa más de la que realmente quería preguntarte, 
-y son las variantes de producto. Definitivamente he
+00:05:19,416 --> 00:05:26,168
+y son las variantes de producto. Definitivamente he trabajado en proyectos donde necesitábamos algunas 
+versiones diferentes de la misma placa
 
 61
-00:05:21,520 --> 00:05:26,280
-trabajado en proyectos donde necesitábamos algunas 
-versiones diferentes de la misma placa y siempre
+00:05:26,168 --> 00:05:31,642
+y siempre es un poco complicado de gestionar. Así que antes 
+de la pausa, hablábamos sobre las variantes de producto y tengo que decir
 
 62
-00:05:26,280 --> 00:05:30,560
-es un poco complicado de gestionar. Así que antes 
-de la pausa, hablábamos sobre las variantes de producto
+00:05:31,642 --> 00:05:36,948
+que para alguien como yo que odia jugar con un millón de archivos diferentes, esto suena como un sueño hecho realidad.
 
 63
-00:05:30,560 --> 00:05:35,880
-y tengo que decir que para alguien como yo que odia 
-jugar con un millón de archivos diferentes, esto suena
+00:05:36,948 --> 00:05:42,395
+Oh sí, es un salvavidas. - Así que 
+¿cómo hace KiBot para manejar tan fácilmente todas estas diferentes variaciones?
 
 64
-00:05:35,880 --> 00:05:41,480
-como un sueño hecho realidad. Oh sí, es un salvavidas. Así que 
-¿cómo hace KiBot para manejar tan fácilmente todas estas
+00:05:42,395 --> 00:05:46,109
+Imagina esto: tienes tu diseño base de placa de circuito, ¿verdad?,
 
 65
-00:05:41,480 --> 00:05:47,120
-diferentes variaciones? Imagina esto: tienes tu 
-diseño base de placa de circuito, ¿verdad?, pero necesitas algunas 
+00:05:46,109 --> 00:05:49,389
+pero necesitas algunas versiones diferentes, solo con pequeños ajustes aquí y allá, ¿verdad?
 
 66
-00:05:47,120 --> 00:05:50,560
-versiones diferentes, solo con pequeños ajustes aquí 
-y allá, ¿verdad? Como que tal vez una necesita un conector 
+00:05:49,389 --> 00:05:53,721
+Como que tal vez una necesita un conector diferente o estás intercambiando un módulo inalámbrico 
+o algo así.
 
 67
-00:05:50,560 --> 00:05:55,720
-diferente o estás intercambiando un módulo inalámbrico 
-o algo así. Exactamente, y en lugar de tener que
+00:05:53,721 --> 00:05:59,224
+Exactamente, y en lugar de tener que crear archivos separados para cada versión,
 
 68
-00:05:55,720 --> 00:06:02,160
-crear archivos separados para cada versión, KiBot te permite 
-gestionar todas esas variaciones dentro del
+00:05:59,224 --> 00:06:02,890
+KiBot te permite gestionar todas esas variaciones dentro del mismo proyecto.
 
 69
-00:06:02,160 --> 00:06:08,080
-mismo proyecto. Oh, wow, así que todo está en un solo lugar. 
-Sí, básicamente configuras parámetros, ¿verdad?, y
+00:06:02,890 --> 00:06:09,415
+Oh, wow, así que todo está en un solo lugar. 
+Sí, básicamente configuras parámetros, ¿verdad?, y diferentes opciones para cosas.
 
 70
-00:06:08,080 --> 00:06:13,280
-diferentes opciones para cosas. Así que para tu módulo 
-inalámbrico, digamos que viene en Bluetooth, Wi-Fi y
+00:06:09,415 --> 00:06:17,134
+Así que para tu módulo inalámbrico, digamos que viene en Bluetooth, Wi-Fi y celular. Le dices a KiBot, "Oye, este componente podría ser cualquiera de estos."
 
 71
-00:06:13,280 --> 00:06:18,120
-celular. Le dices a KiBot, "Oye, este componente podría 
-ser cualquiera de estos." Es como tener un menú
+00:06:17,134 --> 00:06:20,000
+Es como tener un menú desplegable justo allí en tu diseño,
 
 72
-00:06:18,120 --> 00:06:22,960
-desplegable justo allí en tu diseño, para que no tengas 
-que volver a intercambiar manualmente
+00:06:20,000 --> 00:06:25,430
+Para que no tengas que volver a intercambiar manualmente componentes cada vez que necesitas una versión diferente.
 
 73
-00:06:22,960 --> 00:06:27,680
-componentes cada vez que necesitas una versión diferente. 
-Sí, cuando estés listo para generar
+00:06:25,430 --> 00:06:32,773
+Sí, cuando estés listo para generar tus archivos de salida, solo eliges qué variante quieres y KiBot hace el resto.
 
 74
-00:06:27,680 --> 00:06:33,600
-tus archivos de salida, solo eliges qué variante 
-quieres y KiBot hace el resto. Eso es mucho más
+00:06:32,773 --> 00:06:37,286
+Eso es mucho más elegante que la forma en que he estado haciéndolo. ¿Y qué hay de la documentación?
 
 75
-00:06:33,600 --> 00:06:38,120
-elegante que la forma en que he estado haciéndolo. ¿Y qué 
-hay de la documentación? ¿También la maneja para
+00:06:37,286 --> 00:06:44,929
+¿También la maneja para cada variante? Absolutamente. Obtienes los dibujos de ensamblaje correctos, todo para la variante que elijas.
 
 76
-00:06:38,120 --> 00:06:43,800
-cada variante? Absolutamente. Obtienes los 
-dibujos de ensamblaje correctos, todo para la variante que elijas. 
+00:06:44,929 --> 00:06:48,033
+Así que no más adivinaciones si estás mirando los 
+archivos correctos.
 
 77
-00:06:43,800 --> 00:06:48,680
-Así que no más adivinaciones si estás mirando los 
-archivos correctos. Está bien, en serio, 
+00:06:48,033 --> 00:06:53,352
+Está bien, en serio, eso es asombroso, especialmente para proyectos más grandes, que podrían ahorrar tanto tiempo y confusión.
 
 78
-00:06:48,680 --> 00:06:53,160
-eso es asombroso, especialmente para proyectos más grandes, 
-que podrían ahorrar tanto tiempo y confusión.
-
-79
-00:06:53,160 --> 00:06:59,800
+00:06:53,352 --> 00:06:59,341
 Es como si KiBot trajera orden al caos. 
 Exactamente, y esto no es solo para ajustes pequeños.
 
-80
-00:06:59,800 --> 00:07:05,160
+79
+00:06:59,341 --> 00:07:04,565
 Puedes incluso crear productos completamente diferentes 
-a partir de ese mismo diseño base. Oh, wow, así que tú
+a partir de ese mismo diseño base.
+
+80
+00:07:04,565 --> 00:07:09,194
+Oh, wow, así que tú podrías tener un diseño base que funcione como una plataforma para toda una línea de productos.
 
 81
-00:07:05,160 --> 00:07:10,560
-podrías tener un diseño base que funcione como una plataforma 
-para toda una línea de productos. Exactamente, piensa en 
+00:07:09,194 --> 00:07:13,447
+Exactamente, piensa en cómo los diseñadores utilizan el tiempo y el dinero que ahorras.
 
 82
-00:07:10,560 --> 00:07:15,360
-cómo los diseñadores utilizan el tiempo y el dinero que ahorras. 
-KiBot realmente está trayendo estas funciones de alto nivel a 
+00:07:13,447 --> 00:07:16,980
+KiBot realmente está trayendo estas funciones de alto nivel a todos, lo cual es increíble.
 
 83
-00:07:15,360 --> 00:07:19,840
-todos, lo cual es increíble. Es asombroso cuánto 
-puedes hacer con esta herramienta, honestamente. 
+00:07:16,980 --> 00:07:21,629
+Es asombroso cuánto puedes hacer con esta herramienta, honestamente. Hemos cubierto tanto:
 
 84
-00:07:19,840 --> 00:07:26,640
-Hemos cubierto tanto: automatizando todas esas tareas tediosas, 
-creando increíbles modelos 3D y ahora gestionando 
+00:07:21,629 --> 00:07:28,134
+automatizando todas esas tareas tediosas, creando increíbles modelos 3D y ahora gestionando todas estas variantes de producto.
 
 85
-00:07:26,640 --> 00:07:31,880
-todas estas variantes de producto. KiBot suena como si 
-tuviera todo cubierto. Sí, es realmente notable 
+00:07:28,134 --> 00:07:33,507
+KiBot suena como si tuviera todo cubierto.  - Sí, es realmente notable lo que han logrado reunir.
 
 86
-00:07:31,880 --> 00:07:36,960
-lo que han logrado reunir. Lo más genial es que es de código abierto, 
-¿verdad? Así que está en constante 
+00:07:33,507 --> 00:07:38,539
+Lo más genial es que es de código abierto, 
+¿verdad? Así que está en constante evolución, siempre mejorando.
 
 87
-00:07:36,960 --> 00:07:41,320
-evolución, siempre mejorando. Exactamente, hay 
-toda una comunidad de desarrolladores que están 
+00:07:38,539 --> 00:07:43,116
+Exactamente, hay toda una comunidad de desarrolladores que están constantemente añadiendo nuevas características y haciéndolo aún mejor.
 
 88
-00:07:41,320 --> 00:07:45,880
-constantemente añadiendo nuevas características y haciéndolo 
-aún mejor. Eso es lo que me encanta de lo de código abierto. 
+00:07:43,116 --> 00:07:45,000
+Eso es lo que me encanta de lo de código abierto.
 
 89
-00:07:45,880 --> 00:07:53,480
-¿Tienes alguna predicción para el futuro de KiBot? ¿Dónde lo ves yendo? 
-Bueno, es difícil decirlo con certeza, pero creo que es 
+00:07:45,000 --> 00:07:48,960
+¿Tienes alguna predicción para el futuro de KiBot? ¿Dónde lo ves yendo?
 
 90
-00:07:53,480 --> 00:07:58,040
-parte de esta tendencia más amplia, ya sabes, estas herramientas 
-de diseño realmente poderosas se están volviendo accesibles 
+00:07:48,960 --> 00:07:55,223
+Bueno, es difícil decirlo con certeza, pero creo que es parte de esta tendencia más amplia, ya sabes,
 
 91
-00:07:58,040 --> 00:08:04,040
-para todos. Así que, a medida que evoluciona, creo que KiBot tiene 
-el potencial de hacer que el diseño de 
+00:07:55,223 --> 00:07:59,198
+estas herramientas de diseño realmente poderosas se están volviendo accesibles para todos.
 
 92
-00:08:04,040 --> 00:08:08,760
-electrónica avanzada sea algo que cualquiera pueda hacer, no 
-solo grandes empresas con grandes presupuestos. Esa es una 
+00:07:59,198 --> 00:08:08,158
+Así que, a medida que evoluciona, creo que KiBot tiene 
+el potencial de hacer que el diseño de electrónica avanzada sea algo que cualquiera pueda hacer, no solo grandes empresas con grandes presupuestos.
 
 93
-00:08:08,760 --> 00:08:13,960
-idea tan emocionante. Quién sabe qué increíbles 
-invenciones surgirán cuando tengan 
+00:08:08,158 --> 00:08:10,612
+Esa es una idea tan emocionante.
 
 94
-00:08:13,960 --> 00:08:19,960
-este tipo de herramientas al alcance de su mano. 
-Bueno, tengo que decir que esta inmersión en KiBot ha 
+00:08:10,612 --> 00:08:16,597
+Quién sabe qué increíbles invenciones surgirán cuando tengan este tipo de herramientas al alcance de su mano.
 
 95
-00:08:19,960 --> 00:08:24,520
-sido realmente reveladora. Creo que es un recurso 
-increíble para cualquiera, ya sea que estés comenzando 
+00:08:16,597 --> 00:08:21,580
+Bueno, tengo que decir que esta inmersión en KiBot ha sido realmente reveladora.
 
 96
-00:08:24,520 --> 00:08:29,600
-con la electrónica o seas un profesional experimentado. Estoy 
-totalmente de acuerdo, definitivamente vale la pena echarle un 
+00:08:21,580 --> 00:08:27,188
+Creo que es un recurso increíble para cualquiera, ya sea que estés comenzando con la electrónica o seas un profesional experimentado.
 
 97
-00:08:29,600 --> 00:08:34,040
-vistazo. Y para cualquiera que esté escuchando y se sienta 
-inspirado, pueden encontrar enlaces a todo lo que hablamos 
+00:08:27,188 --> 00:08:29,703
+Estoy totalmente de acuerdo, definitivamente vale la pena echarle un vistazo.
 
 98
-00:08:34,040 --> 00:08:39,200
-hoy en las notas del programa, así que asegúrense de revisarlo 
-y háganos saber qué piensan. Hasta la próxima.
+00:08:29,703 --> 00:08:35,429
+Y para cualquiera que esté escuchando y se sienta inspirado, pueden encontrar enlaces a todo lo que hablamos hoy en las notas del programa,
+
+99
+00:08:35,429 --> 00:08:39,200
+así que asegúrense de revisarlo y háganos saber qué piensan. Hasta la próxima.
+
