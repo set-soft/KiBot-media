@@ -1,0 +1,1 @@
+ffmpeg -framerate 30 -pattern_type glob -i 'res/End_Titles-*.png' -i ../../music/01-The_Symphony_of_Automation/01-The_Symphony_of_Automation.mp3 -c:a libfdk_aac -af apad -shortest -c:v libx265 -pix_fmt yuv420p funny_end_titles.mp4
