@@ -29,6 +29,8 @@ A cute robot standing at the right of a logo that says "Ki", intricate details, 
 
 ![06](https://raw.githubusercontent.com/set-soft/KiBot-media/main/logos/cute_robot/AI_depth_to_image/06_realistic.jpg)
 
+![06 upscale](https://raw.githubusercontent.com/set-soft/KiBot-media/main/logos/cute_robot/AI_depth_to_image/06_2_realistic.jpg)
+
 ![07](https://raw.githubusercontent.com/set-soft/KiBot-media/main/logos/cute_robot/AI_depth_to_image/07_very_metal.jpg)
 
 ![08](https://raw.githubusercontent.com/set-soft/KiBot-media/main/logos/cute_robot/AI_depth_to_image/08_metal_marbel.jpg)
