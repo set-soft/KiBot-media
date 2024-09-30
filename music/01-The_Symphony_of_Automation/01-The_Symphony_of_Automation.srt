@@ -1,135 +1,136 @@
 1
-00:00:01,190 --> 00:00:11,960
+00:00:01,190 --> 00:00:07,919
 [Music]
 
 2
-00:00:07,919 --> 00:00:14,759
+00:00:07,919 --> 00:00:11,480
 In the realm where circuits dance,
 
 3
-00:00:11,480 --> 00:00:18,439
+00:00:11,480 --> 00:00:15,759
 With KiCad's grace, we take a chance.
 
 4
-00:00:15,759 --> 00:00:22,880
+00:00:15,759 --> 00:00:19,439
 Through tangled wires and schematics bright,
 
 5
-00:00:19,439 --> 00:00:27,720
+00:00:19,439 --> 00:00:23,880
 A world of dreams ignites the night.
 
 6
-00:00:23,880 --> 00:00:30,840
+00:00:23,880 --> 00:00:27,480
 O KiBot, guardian of the code,
 
 7
-00:00:27,480 --> 00:00:35,640
+00:00:27,480 --> 00:00:31,840
 With every task, our burdens unload.
 
 8
-00:00:31,840 --> 00:00:38,879
+00:00:31,840 --> 00:00:35,360
 In silence you weave, the files we require,
 
 9
-00:00:35,360 --> 00:00:43,440
+00:00:35,360 --> 00:00:39,879
 A symphony of circuits, you inspire!
 
 10
-00:00:39,879 --> 00:00:47,120
+00:00:39,879 --> 00:00:43,440
 No more chaos, no more despair,
 
 11
-00:00:43,440 --> 00:00:50,879
+00:00:43,440 --> 00:00:48,120
 With every commit, you're always there.
 
 12
-00:00:48,120 --> 00:00:54,800
+00:00:48,120 --> 00:00:52,120
 Reproducible paths, so clear and precise,
 
 13
-00:00:52,120 --> 00:00:58,399
+00:00:52,120 --> 00:00:55,880
 In Docker's embrace, we find paradise.
 
 14
-00:00:55,880 --> 00:01:03,840
+00:00:55,880 --> 00:00:59,399
 O KiBot, guardian of the code,
 
 15
-00:00:59,399 --> 00:01:07,600
+00:00:59,399 --> 00:01:03,840
 With every task, our burdens unload.
 
 16
-00:01:03,840 --> 00:01:10,880
+00:01:03,840 --> 00:01:07,320
 In silence you weave, the files we require,
 
 17
-00:01:07,320 --> 00:01:15,400
+00:01:07,320 --> 00:01:11,880
 A symphony of circuits, you inspire!
 
 18
-00:01:11,880 --> 00:01:20,439
+00:01:11,880 --> 00:01:15,400
 No more chaos, no more despair,
 
 19
-00:01:15,400 --> 00:01:24,119
+00:01:15,400 --> 00:01:20,439
 With every commit, you're always there.
 
 20
-00:01:20,439 --> 00:01:28,159
+00:01:20,439 --> 00:01:24,119
 Reproducible paths, so clear and precise,
 
 21
-00:01:24,119 --> 00:01:32,880
+00:01:24,119 --> 00:01:28,149
 In Docker's embrace, we find paradise.
 
 22
-00:01:28,149 --> 00:01:38,159
+00:01:28,149 --> 00:01:31,439
 O KiBot, guardian of the code,
 
 23
-00:01:31,439 --> 00:01:44,079
+00:01:31,439 --> 00:01:35,840
 With every task, our burdens unload.
 
 24
-00:01:35,840 --> 00:01:44,079
+00:01:35,840 --> 00:01:39,399
 In silence you weave, the files we require,
 
 25
-00:01:39,399 --> 00:01:44,079
+00:01:39,399 --> 00:01:59,920
 A symphony of circuits, you inspire!
 
 26
-00:01:59,920 --> 00:02:06,439
+00:01:59,920 --> 00:02:04,159
 From GitHub to GitLab, our voices unite,
 
 27
-00:02:04,159 --> 00:02:10,520
+00:02:04,159 --> 00:02:08,560
 In harmony forged, we conquer the night.
 
 28
-00:02:08,560 --> 00:02:14,400
+00:02:08,560 --> 00:02:12,160
 Errors erased, our visions align,
 
 29
-00:02:12,160 --> 00:02:16,879
+00:02:12,160 --> 00:02:17,879
 With KiBot beside us, our futures will shine.
 
 30
-00:02:17,879 --> 00:02:26,080
+00:02:17,879 --> 00:02:21,120
 O KiBot, forever we'll sing,
 
 31
-00:02:21,120 --> 00:02:29,599
+00:02:21,120 --> 00:02:25,840
 Of the freedom and joy that you bring.
 
 32
-00:02:25,840 --> 00:02:34,480
+00:02:25,840 --> 00:02:29,319
 In the world of design, your legacy grows,
 
 33
-00:02:29,319 --> 00:02:48,880
+00:02:29,319 --> 00:02:34,480
 A master of rhythm, where innovation flows!
 
 34
 00:02:34,480 --> 00:02:48,880
 [Music]
+
