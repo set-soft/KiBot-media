@@ -47,3 +47,19 @@ The prompts are included.
 For one of the songs I generated subtitles using YouTube, downloading the
 automatically generated VTT file and using its times to create an SRT file
 with the actual lyrics.
+
+## How to cut song
+
+Sometimes Suno produces an "extra song end", in particular cases is cool, but usually ruins the song.
+To cut the audio you can use:
+
+```
+ffmpeg -ss START -t END -i INPUT -c:a copy  OUTPUT
+```
+
+The best here is that we just copy the stream, which is fast and doesn't reduce quality.
+As an example:
+
+```
+ffmpeg -ss 0 -t 3:10 -i 15-The_Symphony_of_Automation.mp3 -c:a copy  15-The_Symphony_of_Automation_b.mp3
+```
