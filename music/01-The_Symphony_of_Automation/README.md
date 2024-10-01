@@ -41,7 +41,7 @@ In the world of design, your legacy grows,
 A master of rhythm, where innovation flows!
 ```
 
-Then using Suno v3.5 I generated the 10 songs found in this folder.
+Then using Suno v3.5 I generated the 20 songs found in this folder (1 discarded).
 The prompts are included.
 
 For one of the songs I generated subtitles using YouTube, downloading the
