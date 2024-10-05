@@ -19,6 +19,8 @@ I then asked YouTube to automatically generate english subtitles, and I edited t
 like keybot -> KiBot.
 The [01_en.srt](https://raw.githubusercontent.com/set-soft/KiBot-media/main/podcasts/AI_from_docs/01_en.srt)
 file is the result.
+Note: [01_en_runway.srt](https://raw.githubusercontent.com/set-soft/KiBot-media/main/podcasts/AI_from_docs/01_en_runway.srt)
+is the voice to text result obtained using Runway, I just fixed KiBot and KiCad.
 
 Using ChatGPT I translated it to spanish to get
 [01_es.srt](https://raw.githubusercontent.com/set-soft/KiBot-media/main/podcasts/AI_from_docs/01_es.srt).
