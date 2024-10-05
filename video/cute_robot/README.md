@@ -39,3 +39,39 @@ Aspect ratio: Landscape (5:3)
 Resolution: 720p (1280x768)
 
 Here the robot just moves at its place, lamentably one of the hands overlaps the Ki logo, making it invalid.
+
+
+### 03-realistic_hi.mp4
+
+Prompt
+```
+First person view shot of a robot. Hyper-speed fly, dynamic motion, dynamic blur, timelapse, 30x speed.
+In the style of cinematic. The robot greet by waving its right hand, while smiling and moving its eyes.
+The logo at its right remains there. 
+```
+
+Seed: 3247021138
+
+Aspect ratio: Landscape (5:3)
+
+Resolution: 720p (1280x768)
+
+The robot seems to be greeting. The arm is morphed, but looks nice anyways
+
+
+### 04-realistic_hi.mp4
+
+Prompt
+```
+First person view shot of a robot. Hyper-speed fly, dynamic motion, dynamic blur, timelapse, 30x speed.
+In the style of cinematic. The robot greet by waving its left hand, while smiling.
+The logo at its right remains there.
+```
+
+Seed: 4075265563
+
+Aspect ratio: Landscape (5:3)
+
+Resolution: 720p (1280x768)
+
+The robot doesn't move much. The robotic artifact that enters looks interesting.
