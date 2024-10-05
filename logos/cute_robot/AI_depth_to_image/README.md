@@ -36,3 +36,13 @@ A cute robot standing at the right of a logo that says "Ki", intricate details, 
 ![08](https://raw.githubusercontent.com/set-soft/KiBot-media/main/logos/cute_robot/AI_depth_to_image/08_metal_marbel.jpg)
 
 ![09](https://raw.githubusercontent.com/set-soft/KiBot-media/main/logos/cute_robot/AI_depth_to_image/09_bw_on_rocks.jpg)
+
+
+## Extending 06
+
+Using the *Infinite Image* tool from Runway and extending the image I got:
+
+![06 extended](https://raw.githubusercontent.com/set-soft/KiBot-media/main/logos/cute_robot/AI_depth_to_image/06_3_realistic.jpg)
+
+The image has less detail and less consistency than the original, looks valid
+only for some fast movement where the details aren't really important.
