@@ -1,0 +1,403 @@
+1
+00:00:00,000 --> 00:00:03,614
+Okay, so today we're diving into this really cool tool I found.
+
+2
+00:00:03,742 --> 00:00:08,310
+It's called KiBot, and it's designed to work with KiCad.
+
+3
+00:00:08,350 --> 00:00:11,174
+I'm sure a lot of our listeners have heard of it, maybe even use it.
+
+4
+00:00:11,302 --> 00:00:15,010
+It's that free and open source electronics design software.
+
+5
+00:00:17,150 --> 00:00:18,406
+Yeah, exactly.
+
+6
+00:00:18,518 --> 00:00:22,078
+So if anyone out there listening is tired of those tedious tasks, you know,
+
+7
+00:00:22,094 --> 00:00:26,010
+like all the boring stuff you have to do when you're designing electronic.
+
+8
+00:00:28,680 --> 00:00:32,380
+Right? That's what KiBot is supposed to be, like, your new best friend.
+
+9
+00:00:37,160 --> 00:00:39,064
+Okay, so walk me through it from the beginning.
+
+10
+00:00:39,112 --> 00:00:41,900
+What kinds of tasks does KiBot automate?
+
+11
+00:00:46,960 --> 00:00:47,952
+Okay. Kerber files.
+
+12
+00:00:47,976 --> 00:00:50,340
+Yeah, but for people who don't know, what are those?
+
+13
+00:01:00,690 --> 00:01:05,306
+So instead of me having to go and figure out all the settings every single
+
+14
+00:01:05,338 --> 00:01:07,310
+time, KiBot takes care of all that.
+
+15
+00:01:18,700 --> 00:01:19,964
+Oh, yeah, for sure.
+
+16
+00:01:20,052 --> 00:01:21,524
+Been there, done that.
+
+17
+00:01:21,692 --> 00:01:22,564
+Not fun.
+
+18
+00:01:22,692 --> 00:01:25,716
+So it's definitely saving us from some late night manufacturing panic
+
+19
+00:01:25,748 --> 00:01:29,108
+attacks. Okay, so that's one less thing to worry about.
+
+20
+00:01:29,204 --> 00:01:33,980
+But what about catching those errors before we even get to that stage? Like,
+
+21
+00:01:34,020 --> 00:01:35,880
+during the actual design process?
+
+22
+00:01:39,780 --> 00:01:42,676
+It's like having someone looking over your shoulder, double checking your
+
+23
+00:01:42,708 --> 00:01:43,280
+work.
+
+24
+00:01:52,680 --> 00:01:53,744
+That's a relief.
+
+25
+00:01:53,872 --> 00:01:56,780
+Sometimes my brain just can't even handle another schematic.
+
+26
+00:02:01,320 --> 00:02:05,272
+Okay, so we've covered the manufacturing files and the error checking.
+
+27
+00:02:05,416 --> 00:02:09,400
+What else can this thing do? Documentation.
+
+28
+00:02:09,480 --> 00:02:10,100
+Really?
+
+29
+00:02:16,670 --> 00:02:17,730
+Oh, wow.
+
+30
+00:02:22,670 --> 00:02:25,030
+Okay, so it's like it's helping with the budget too.
+
+31
+00:02:25,070 --> 00:02:26,290
+That's actually amazing.
+
+32
+00:02:31,790 --> 00:02:33,086
+Right? That makes sense.
+
+33
+00:02:33,238 --> 00:02:38,738
+Wow. Okay, so far, KiBot is blowing my mind a little bit.
+
+34
+00:02:38,914 --> 00:02:40,230
+Oh, there's more
+
+35
+00:02:44,250 --> 00:02:45,510
+3d modeling.
+
+36
+00:02:49,410 --> 00:02:52,258
+Okay, now that I'm really interested in.
+
+37
+00:02:52,314 --> 00:02:55,146
+Okay, so before the break, you kind of blew my mind a little bit.
+
+38
+00:02:55,178 --> 00:02:57,990
+Talking about 3d modeling, I'm really curious about this.
+
+39
+00:02:59,050 --> 00:03:01,910
+So tell me, how does it actually work?
+
+40
+00:03:10,210 --> 00:03:14,430
+Okay, so we're not talking about just like, a basic 3d block here.
+
+41
+00:03:22,570 --> 00:03:23,850
+Wow, that's amazing.
+
+42
+00:03:23,970 --> 00:03:28,050
+What are the advantages of having, you know, like, a super high quality 3d
+
+43
+00:03:28,090 --> 00:03:29,230
+model like that?
+
+44
+00:03:38,820 --> 00:03:40,440
+Right. That makes a lot of sense.
+
+45
+00:03:48,860 --> 00:03:50,948
+Right. Especially with more complex boards.
+
+46
+00:03:51,004 --> 00:03:52,400
+That could be really helpful.
+
+47
+00:03:59,750 --> 00:04:00,774
+Yeah, definitely.
+
+48
+00:04:00,822 --> 00:04:02,790
+I mean, everyone loves a good 3d render.
+
+49
+00:04:02,910 --> 00:04:06,730
+It's way more exciting than just looking at, like, a 2d drawing.
+
+50
+00:04:17,950 --> 00:04:18,542
+Oh, okay.
+
+51
+00:04:18,566 --> 00:04:22,150
+So you could take the model from KiBotan and use it in a completely
+
+52
+00:04:22,190 --> 00:04:23,102
+different program.
+
+53
+00:04:23,286 --> 00:04:24,614
+So, like, give me an example.
+
+54
+00:04:24,662 --> 00:04:25,810
+How would you use that?
+
+55
+00:04:36,790 --> 00:04:39,610
+Oh, so they can make sure it fits properly and everything.
+
+56
+00:04:43,270 --> 00:04:47,570
+That's huge, because those design clashes can be a real pain.
+
+57
+00:04:56,150 --> 00:05:00,070
+Wow. It's like you're giving your design a virtual test run before you even
+
+58
+00:05:00,150 --> 00:05:02,050
+like solder anything.
+
+59
+00:05:12,310 --> 00:05:13,782
+It's very, very cool.
+
+60
+00:05:13,926 --> 00:05:17,716
+Okay, so we talked about the 3d modeling, but there's one more thing that I
+
+61
+00:05:17,748 --> 00:05:20,868
+really wanted to ask you about, and that's the product variants.
+
+62
+00:05:21,004 --> 00:05:24,540
+I've definitely worked on projects where, like, we needed a few different
+
+63
+00:05:24,580 --> 00:05:28,084
+versions of the same board, and it's always a bit of a headache to manage.
+
+64
+00:05:28,212 --> 00:05:30,972
+So before the break, we were talking about product variants, and I got to
+
+65
+00:05:30,996 --> 00:05:35,604
+say, for someone like me who hates juggling a million different files, this
+
+66
+00:05:35,652 --> 00:05:37,240
+sounds like a dream come true.
+
+67
+00:05:38,300 --> 00:05:42,600
+So how does KiBot make it so easy to handle all these different variations?
+
+68
+00:05:45,980 --> 00:05:48,948
+But you need a few different versions, just with little tweaks here and
+
+69
+00:05:48,964 --> 00:05:52,252
+there, right? Like maybe one needs a different connector or are you swapping
+
+70
+00:05:52,276 --> 00:05:54,040
+out a wireless module or something?
+
+71
+00:06:02,780 --> 00:06:03,364
+Oh, wow.
+
+72
+00:06:03,412 --> 00:06:05,320
+So it's all in one place,
+
+73
+00:06:19,870 --> 00:06:24,030
+so you don't have to go back and like, manually swap out components every
+
+74
+00:06:24,070 --> 00:06:25,730
+time you need a different version.
+
+75
+00:06:32,590 --> 00:06:35,566
+That is so much slicker than the way I've been doing it.
+
+76
+00:06:35,718 --> 00:06:39,370
+And what about the documentation? Does it handle that for each variant too?
+
+77
+00:06:47,880 --> 00:06:49,248
+Okay, seriously, that's amazing.
+
+78
+00:06:49,304 --> 00:06:52,392
+Especially for like, bigger projects that could save so much time and
+
+79
+00:06:52,416 --> 00:06:56,060
+confusion. It's like KiBot just brings order to the chaos.
+
+80
+00:07:04,400 --> 00:07:04,920
+Oh, wow.
+
+81
+00:07:04,960 --> 00:07:08,666
+So you could have one base design that's like a platform for a whole product
+
+82
+00:07:08,738 --> 00:07:09,350
+line.
+
+83
+00:07:16,770 --> 00:07:19,290
+It's amazing how much you could do with this one tool.
+
+84
+00:07:19,450 --> 00:07:24,322
+Honestly, we've covered so much automating all those tedious tasks, creating
+
+85
+00:07:24,386 --> 00:07:27,914
+amazing 3d models, and now managing all these product variants.
+
+86
+00:07:28,042 --> 00:07:30,230
+Kibot sounds like it has everything covered.
+
+87
+00:07:33,260 --> 00:07:35,764
+The coolest part is it's open source.
+
+88
+00:07:35,812 --> 00:07:38,680
+Right? So it's constantly evolving, always getting better.
+
+89
+00:07:42,940 --> 00:07:44,676
+That's what I love about open source.
+
+90
+00:07:44,828 --> 00:07:48,120
+So, any predictions for the future of Kibot? Where do you see it going?
+
+91
+00:08:07,910 --> 00:08:10,090
+That is such an exciting thought.
+
+92
+00:08:10,470 --> 00:08:14,126
+Who knows what incredible inventions people will come up with when they have
+
+93
+00:08:14,158 --> 00:08:18,294
+these kinds of tools at their fingertips? Well, I have to say, this deep
+
+94
+00:08:18,342 --> 00:08:21,310
+dive into KiBot has been really eye opening.
+
+95
+00:08:21,430 --> 00:08:23,758
+I think it's an amazing resource for anyone.
+
+96
+00:08:23,814 --> 00:08:26,582
+Whether you're just getting started with electronics or you're a seasoned
+
+97
+00:08:26,606 --> 00:08:29,580
+pro, you.
+
+98
+00:08:29,620 --> 00:08:33,100
+And for anyone listening who's feeling inspired, you can find links to
+
+99
+00:08:33,140 --> 00:08:35,188
+everything we talked about today in the show notes.
+
+100
+00:08:35,284 --> 00:08:37,964
+So be sure to check it out and let us know what you think.
+
+101
+00:08:38,092 --> 00:08:38,780
+Until next time.

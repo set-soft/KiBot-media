@@ -64,7 +64,7 @@ Okay, so walk me through it from the beginning.
 
 17
 00:00:39,102 --> 00:00:43,078
-What kinds of tasks does keybot automate? Well, the main thing is it handles
+What kinds of tasks does KiBot automate? Well, the main thing is it handles
 
 18
 00:00:43,134 --> 00:00:45,342
@@ -100,7 +100,7 @@ So instead of me having to go and figure out all the settings every single
 
 26
 00:01:05,358 --> 00:01:07,030
-time, keybot takes care of all that.
+time, KiBot takes care of all that.
 
 27
 00:01:07,110 --> 00:01:09,366
@@ -516,7 +516,7 @@ out a wireless module or something? Exactly.
 
 130
 00:05:54,484 --> 00:05:59,732
-And instead of having to create like separate files for each version, keybot
+And instead of having to create like separate files for each version, KiBot
 
 131
 00:05:59,756 --> 00:06:02,812
@@ -540,7 +540,7 @@ and cellular.
 
 136
 00:06:14,150 --> 00:06:16,870
-You tell Keybot, hey, this component could be any of these.
+You tell KiBot, hey, this component could be any of these.
 
 137
 00:06:16,910 --> 00:06:20,294
@@ -564,7 +564,7 @@ When you're ready to generate your output files, you just choose which
 
 142
 00:06:29,550 --> 00:06:32,070
-variant you want, keybot does the rest.
+variant you want, KiBot does the rest.
 
 143
 00:06:32,610 --> 00:06:35,586
@@ -596,7 +596,7 @@ Especially for, like, bigger projects that could save so much time and
 
 150
 00:06:52,426 --> 00:06:55,906
-confusion. It's like keybot just brings order to the chaos.
+confusion. It's like KiBot just brings order to the chaos.
 
 151
 00:06:56,018 --> 00:06:59,322
@@ -628,7 +628,7 @@ Think of the design, reuse the time and money you save.
 
 158
 00:07:13,346 --> 00:07:16,106
-Keybots really bringing these high end features to everyone, which is
+KiBot really bringing these high end features to everyone, which is
 
 159
 00:07:16,138 --> 00:07:19,842

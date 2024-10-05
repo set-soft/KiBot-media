@@ -67,7 +67,8 @@ Following a similar process:
 [03_es.srt](https://raw.githubusercontent.com/set-soft/KiBot-media/main/podcasts/AI_from_docs/03_es.srt)
 
 [03_en_runway.srt](https://raw.githubusercontent.com/set-soft/KiBot-media/main/podcasts/AI_from_docs/03_en_runway.srt)
-is the voice to text result obtained using Runway, I just fixed KiBot and KiCad.
+is the voice to text result obtained using Runway, I just fixed KiBot and KiCad. I also included transcripts for the male and
+female voices.
 
 I manually separated the male and female voice (using audacity):
 
