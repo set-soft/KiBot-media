@@ -76,3 +76,4 @@ I manually separated the male and female voice (using audacity):
 
 [Female](https://media.githubusercontent.com/media/set-soft/KiBot-media/main/podcasts/AI_from_docs/03_KiBot_correction_2_female.mp3)
 
+The [03_Video](03_Video/README.md) folder contains a video using AI avatars.
