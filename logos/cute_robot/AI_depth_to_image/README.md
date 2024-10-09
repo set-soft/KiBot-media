@@ -46,3 +46,13 @@ Using the *Infinite Image* tool from Runway and extending the image I got:
 
 The image has less detail and less consistency than the original, looks valid
 only for some fast movement where the details aren't really important.
+
+
+## Using 06 for the logo:
+
+Removing the background I got:
+
+![06 transparent](https://raw.githubusercontent.com/set-soft/KiBot-media/main/logos/cute_robot/AI_depth_to_image/06_4_realistic.png)
+
+I used a mix between IA remove (Night Cafe) and manual work.
+
